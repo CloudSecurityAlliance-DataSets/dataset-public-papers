@@ -77,3 +77,5 @@ Output Classifier: BLOCK (detects harmful pattern emerging)
 
 Empirically validated through 3,000+ hours of red teaming with no successful universal jailbreaks found, demonstrating superior robustness compared to traditional safety measures.
 
+SOURCE: https://arxiv.org/pdf/2501.18837
+
