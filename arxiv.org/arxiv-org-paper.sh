@@ -29,3 +29,8 @@ mv "$id"/* ./
 # Clean up by removing the now-empty subdirectory and the downloaded PDF.
 rmdir "$id"
 rm "$id.pdf"
+
+git add -A "$id/*"
+git commit -a -m "arxiv paper $id added"
+git push
+
