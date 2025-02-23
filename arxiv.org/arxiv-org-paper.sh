@@ -30,7 +30,6 @@ mv "$id"/* ./
 rmdir "$id"
 rm "$id.pdf"
 
-git add -A "$id/*"
+git add -A "*"
 git commit -a -m "arxiv paper $id added"
 git push
-
