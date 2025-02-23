@@ -30,6 +30,20 @@ mv "$id"/* ./
 rmdir "$id"
 rm "$id.pdf"
 
+
+####
+
+latest_file=$(ls -t ../../prompts | head -n 1)
+latest_file_path="../../prompts/$latest_file"
+
+if [[ -n "$latest_file" ]]; then
+    echo "Latest file: $latest_file_path"
+else
+    echo "No files found in the directory."
+fi
+
+../../utils/summarize-md-paper-with-chatgpt-o1.py --prompt "$latest_file_path" --input "$id".md
+
 git add -A "*"
 git commit -a -m "arxiv paper $id added"
 git push
