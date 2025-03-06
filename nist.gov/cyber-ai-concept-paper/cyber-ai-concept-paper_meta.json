@@ -1,0 +1,688 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Cybersecurity and AI Workshop Concept Paper",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.12109375,
+          94.60107421875
+        ],
+        [
+          542.6441040039062,
+          94.60107421875
+        ],
+        [
+          542.6441040039062,
+          120.77996826171875
+        ],
+        [
+          71.12109375,
+          120.77996826171875
+        ]
+      ]
+    },
+    {
+      "title": "National Institute of Standards and Technology",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.5693359375,
+          128.197265625
+        ],
+        [
+          388.2651062011719,
+          128.197265625
+        ],
+        [
+          388.2651062011719,
+          146.54998779296875
+        ],
+        [
+          71.5693359375,
+          146.54998779296875
+        ]
+      ]
+    },
+    {
+      "title": "Note to Reviewers",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          257.4404296875,
+          180.3076171875
+        ],
+        [
+          354.41015625,
+          180.3076171875
+        ],
+        [
+          354.41015625,
+          193.79998779296875
+        ],
+        [
+          257.4404296875,
+          193.79998779296875
+        ]
+      ]
+    },
+    {
+      "title": "\u2022 Other Considerations:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          95.80000305175781,
+          79.7607421875
+        ],
+        [
+          226.156005859375,
+          79.7607421875
+        ],
+        [
+          226.156005859375,
+          92.8125
+        ],
+        [
+          95.80000305175781,
+          92.8125
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.756103515625,
+          71.97802734375
+        ],
+        [
+          150.11598205566406,
+          71.97802734375
+        ],
+        [
+          150.11598205566406,
+          86.05145263671875
+        ],
+        [
+          71.756103515625,
+          86.05145263671875
+        ]
+      ]
+    },
+    {
+      "title": "2. Cybersecurity of AI and AI in Cybersecurity (Cyber AI) Profile Conceptual Approach",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.2705078125,
+          326.390625
+        ],
+        [
+          507.7660217285156,
+          326.390625
+        ],
+        [
+          507.7660217285156,
+          341.0859375
+        ],
+        [
+          71.2705078125,
+          341.0859375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          133.576171875,
+          145.212890625
+        ],
+        [
+          189.45703125,
+          145.212890625
+        ],
+        [
+          189.45703125,
+          156.427734375
+        ],
+        [
+          133.576171875,
+          156.427734375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          133.4267578125,
+          256.974609375
+        ],
+        [
+          186.3193359375,
+          256.974609375
+        ],
+        [
+          186.3193359375,
+          268.189453125
+        ],
+        [
+          133.4267578125,
+          268.189453125
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          137.23681640625,
+          361.388671875
+        ],
+        [
+          189.0087890625,
+          361.388671875
+        ],
+        [
+          189.0087890625,
+          372.603515625
+        ],
+        [
+          137.23681640625,
+          372.603515625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          136.34033203125,
+          575.05078125
+        ],
+        [
+          193.04296875,
+          575.05078125
+        ],
+        [
+          193.04296875,
+          585.87890625
+        ],
+        [
+          136.34033203125,
+          585.87890625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          138.357421875,
+          83.6279296875
+        ],
+        [
+          190.951171875,
+          83.6279296875
+        ],
+        [
+          190.951171875,
+          95.326171875
+        ],
+        [
+          138.357421875,
+          95.326171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Cyber AI Profile Priorities",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.419921875,
+          225.45703125
+        ],
+        [
+          224.9159698486328,
+          225.45703125
+        ],
+        [
+          224.9159698486328,
+          239.10150146484375
+        ],
+        [
+          71.419921875,
+          239.10150146484375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Cyber AI Profile Relationship to Multiple Frameworks",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.34521484375,
+          71.78466796875
+        ],
+        [
+          366.4660339355469,
+          71.78466796875
+        ],
+        [
+          366.4660339355469,
+          86.05145263671875
+        ],
+        [
+          71.34521484375,
+          86.05145263671875
+        ]
+      ]
+    },
+    {
+      "title": "Figure 4 - Notional Integrated Activity-Oriented Cyber AI Profile",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          174.3300018310547,
+          73.04150390625
+        ],
+        [
+          439.27734375,
+          73.04150390625
+        ],
+        [
+          439.27734375,
+          84.02996826171875
+        ],
+        [
+          174.3300018310547,
+          84.02996826171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          160
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          138
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          31
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          171
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          68
+        ],
+        [
+          "TableCell",
+          30
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          142
+        ],
+        [
+          "Span",
+          52
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          49
+        ],
+        [
+          "Span",
+          31
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/cyber-ai-concept-paper"
+}
