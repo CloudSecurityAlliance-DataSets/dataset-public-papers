@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
 # Check that a URL was provided.
@@ -21,7 +21,12 @@ cd "$id"
 wget -O "$id.pdf" "$url"
 
 # Run the marker_single command to produce markdown output.
-marker_single --output_dir ./ --output_format markdown "$id.pdf"
+#marker_single --output_dir ./ --output_format markdown "$id.pdf"
+#
+# Use the script:
+#
+~/GitHub/CSA-utils/utils/convert-pdf-to-markdown.sh --input "$id.pdf"
+
 
 # Move the markdown output (assumed to be in a subdirectory named after the id) to the current directory.
 mv "$id"/* ./
