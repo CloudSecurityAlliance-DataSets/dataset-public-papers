@@ -1,0 +1,154 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Crosswalk NIST AI Risk Management Framework (AI RMF 1.0)\nand Singapore's AI Verify Testing Framework",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.7289177344488,
+          71.9717936052983
+        ],
+        [
+          518.2888540327549,
+          71.9717936052983
+        ],
+        [
+          518.2888540327549,
+          108.70739659133598
+        ],
+        [
+          69.7289177344488,
+          108.70739659133598
+        ]
+      ]
+    },
+    {
+      "title": "October 12, 2023",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.7289177344488,
+          126.70034499266056
+        ],
+        [
+          152.9537550304038,
+          126.70034499266056
+        ],
+        [
+          152.9537550304038,
+          141.69446866043103
+        ],
+        [
+          69.7289177344488,
+          141.69446866043103
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          90
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/NIST_AI_RMF_to_AI_Verify_Crosswalk"
+}
