@@ -1,0 +1,1679 @@
+{
+  "table_of_contents": [
+    {
+      "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations\nby Code Generating LLMs",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          52.5,
+          92.25
+        ],
+        [
+          558.80859375,
+          92.25
+        ],
+        [
+          558.80859375,
+          122.4931640625
+        ],
+        [
+          52.5,
+          122.4931640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          150.75,
+          252.75
+        ],
+        [
+          196.5,
+          252.75
+        ],
+        [
+          196.5,
+          263.548828125
+        ],
+        [
+          150.75,
+          263.548828125
+        ]
+      ]
+    },
+    {
+      "title": "Introduction\n1",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          52.5,
+          651.75
+        ],
+        [
+          136.5,
+          651.75
+        ],
+        [
+          136.5,
+          662.8359375
+        ],
+        [
+          52.5,
+          662.8359375
+        ]
+      ]
+    },
+    {
+      "title": "2 Background and Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          316.5,
+          284.044921875
+        ],
+        [
+          495.45703125,
+          284.044921875
+        ],
+        [
+          495.45703125,
+          294.873046875
+        ],
+        [
+          316.5,
+          294.873046875
+        ]
+      ]
+    },
+    {
+      "title": "Background\n2.1",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          316.5,
+          362.25
+        ],
+        [
+          408.0,
+          362.25
+        ],
+        [
+          408.0,
+          373.376953125
+        ],
+        [
+          316.5,
+          373.376953125
+        ]
+      ]
+    },
+    {
+      "title": "2.2\nRelated Work",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          316.5,
+          331.41796875
+        ],
+        [
+          416.25,
+          331.41796875
+        ],
+        [
+          416.25,
+          342.6328125
+        ],
+        [
+          316.5,
+          342.6328125
+        ]
+      ]
+    },
+    {
+      "title": "3\nResearch Questions",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          52.5,
+          339.75
+        ],
+        [
+          171.75,
+          339.75
+        ],
+        [
+          171.75,
+          351.140625
+        ],
+        [
+          52.5,
+          351.140625
+        ]
+      ]
+    },
+    {
+      "title": "\u09ac\nExperiment Design",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          52.5,
+          129.6474609375
+        ],
+        [
+          170.25,
+          129.6474609375
+        ],
+        [
+          170.25,
+          141.4423828125
+        ],
+        [
+          52.5,
+          141.4423828125
+        ]
+      ]
+    },
+    {
+      "title": "Prompt Dataset\n4.1",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          52.5,
+          244.212890625
+        ],
+        [
+          161.25,
+          244.212890625
+        ],
+        [
+          161.25,
+          256.201171875
+        ],
+        [
+          52.5,
+          256.201171875
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Code Generation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          316.5,
+          559.58203125
+        ],
+        [
+          432.10546875,
+          559.58203125
+        ],
+        [
+          432.10546875,
+          571.18359375
+        ],
+        [
+          316.5,
+          571.18359375
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Detection Methodology and Heuristics",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          315.75,
+          238.5
+        ],
+        [
+          540.75,
+          238.5
+        ],
+        [
+          540.75,
+          249.240234375
+        ],
+        [
+          315.75,
+          249.240234375
+        ]
+      ]
+    },
+    {
+      "title": "\u0a1f\nEvaluation Results",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          52.5,
+          365.25
+        ],
+        [
+          167.34375,
+          365.25
+        ],
+        [
+          167.34375,
+          376.27734375
+        ],
+        [
+          52.5,
+          376.27734375
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Prevalence of Package Hallucinations\n(RQ1)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          52.5,
+          570.75
+        ],
+        [
+          294.75,
+          570.75
+        ],
+        [
+          294.75,
+          595.546875
+        ],
+        [
+          52.5,
+          595.546875
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Impact of Model Settings (RQ2)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          52.5,
+          73.283203125
+        ],
+        [
+          246.533203125,
+          73.283203125
+        ],
+        [
+          246.533203125,
+          84.0146484375
+        ],
+        [
+          52.5,
+          84.0146484375
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Model Behaviors (RQ3)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          52.5,
+          283.46484375
+        ],
+        [
+          202.904296875,
+          283.46484375
+        ],
+        [
+          202.904296875,
+          295.06640625
+        ],
+        [
+          52.5,
+          295.06640625
+        ]
+      ]
+    },
+    {
+      "title": "5.4 Characteristics of Hallucinations (RQ4)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          52.5,
+          656.6484375
+        ],
+        [
+          283.587890625,
+          656.6484375
+        ],
+        [
+          283.587890625,
+          667.4765625
+        ],
+        [
+          52.5,
+          667.4765625
+        ]
+      ]
+    },
+    {
+      "title": "6\nMitigation",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          52.5,
+          179.244140625
+        ],
+        [
+          126.0,
+          179.244140625
+        ],
+        [
+          126.0,
+          191.0390625
+        ],
+        [
+          52.5,
+          191.0390625
+        ]
+      ]
+    },
+    {
+      "title": "6.1\nMitigation Strategies",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          52.5,
+          271.4765625
+        ],
+        [
+          188.1123046875,
+          271.4765625
+        ],
+        [
+          188.1123046875,
+          283.078125
+        ],
+        [
+          52.5,
+          283.078125
+        ]
+      ]
+    },
+    {
+      "title": "6.2 Mitigation Implementation and Results",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          316.5,
+          244.79296875
+        ],
+        [
+          546.0,
+          244.79296875
+        ],
+        [
+          546.0,
+          256.0078125
+        ],
+        [
+          316.5,
+          256.0078125
+        ]
+      ]
+    },
+    {
+      "title": "7 Discussion and Conclusion",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          316.458984375,
+          330.0
+        ],
+        [
+          471.75,
+          330.0
+        ],
+        [
+          471.75,
+          341.0859375
+        ],
+        [
+          316.458984375,
+          341.0859375
+        ]
+      ]
+    },
+    {
+      "title": "Ethics Considerations",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          52.5,
+          174.0
+        ],
+        [
+          166.5,
+          174.0
+        ],
+        [
+          166.5,
+          185.23828125
+        ],
+        [
+          52.5,
+          185.23828125
+        ]
+      ]
+    },
+    {
+      "title": "Open Science",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          315.75,
+          72.6064453125
+        ],
+        [
+          387.0,
+          72.6064453125
+        ],
+        [
+          387.0,
+          84.111328125
+        ],
+        [
+          315.75,
+          84.111328125
+        ]
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          316.5,
+          498.8671875
+        ],
+        [
+          417.0,
+          498.8671875
+        ],
+        [
+          417.0,
+          510.46875
+        ],
+        [
+          316.5,
+          510.46875
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          316.5,
+          585.87890625
+        ],
+        [
+          373.53515625,
+          585.87890625
+        ],
+        [
+          373.53515625,
+          597.48046875
+        ],
+        [
+          316.5,
+          597.48046875
+        ]
+      ]
+    },
+    {
+      "title": "A Truncated List of LLM Generated Coding\nPrompts",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          316.16015625,
+          300.48046875
+        ],
+        [
+          559.40625,
+          300.48046875
+        ],
+        [
+          559.40625,
+          326.00390625
+        ],
+        [
+          316.16015625,
+          326.00390625
+        ]
+      ]
+    },
+    {
+      "title": "B System Messages and Prompts",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          52.5,
+          276.310546875
+        ],
+        [
+          230.25,
+          276.310546875
+        ],
+        [
+          230.25,
+          288.298828125
+        ],
+        [
+          52.5,
+          288.298828125
+        ]
+      ]
+    },
+    {
+      "title": "System Message",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          58.5,
+          343.01953125
+        ],
+        [
+          124.1630859375,
+          343.01953125
+        ],
+        [
+          124.1630859375,
+          353.07421875
+        ],
+        [
+          58.5,
+          353.07421875
+        ]
+      ]
+    },
+    {
+      "title": "Prompt",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          58.5,
+          435.83203125
+        ],
+        [
+          89.25,
+          435.83203125
+        ],
+        [
+          89.25,
+          445.88671875
+        ],
+        [
+          58.5,
+          445.88671875
+        ]
+      ]
+    },
+    {
+      "title": "C Model Parameters and Testing Environment",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          52.5,
+          540.6328125
+        ],
+        [
+          294.75,
+          540.6328125
+        ],
+        [
+          294.75,
+          553.0078125
+        ],
+        [
+          52.5,
+          553.0078125
+        ]
+      ]
+    },
+    {
+      "title": "D Python vs. JavaScript Hallucination",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          52.5,
+          663.22265625
+        ],
+        [
+          258.9345703125,
+          663.22265625
+        ],
+        [
+          258.9345703125,
+          675.59765625
+        ],
+        [
+          52.5,
+          675.59765625
+        ]
+      ]
+    },
+    {
+      "title": "System Message",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          321.75,
+          70.43115234375
+        ],
+        [
+          385.5,
+          70.43115234375
+        ],
+        [
+          385.5,
+          80.87255859375
+        ],
+        [
+          321.75,
+          80.87255859375
+        ]
+      ]
+    },
+    {
+      "title": "Prompt",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          322.5,
+          186.0
+        ],
+        [
+          353.8125,
+          186.0
+        ],
+        [
+          353.8125,
+          196.259765625
+        ],
+        [
+          322.5,
+          196.259765625
+        ]
+      ]
+    },
+    {
+      "title": "System Message",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          322.5,
+          285.3984375
+        ],
+        [
+          386.25,
+          285.3984375
+        ],
+        [
+          386.25,
+          296.25
+        ],
+        [
+          322.5,
+          296.25
+        ]
+      ]
+    },
+    {
+      "title": "Prompt",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          323.25,
+          390.75
+        ],
+        [
+          356.203125,
+          390.75
+        ],
+        [
+          356.203125,
+          401.02734375
+        ],
+        [
+          323.25,
+          401.02734375
+        ]
+      ]
+    },
+    {
+      "title": "E Complete Results for Python and JavaScript",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          316.5,
+          499.640625
+        ],
+        [
+          559.107421875,
+          499.640625
+        ],
+        [
+          559.107421875,
+          512.015625
+        ],
+        [
+          316.5,
+          512.015625
+        ]
+      ]
+    },
+    {
+      "title": "F Additional Background Information",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          316.5,
+          580.46484375
+        ],
+        [
+          522.94921875,
+          580.46484375
+        ],
+        [
+          522.94921875,
+          593.61328125
+        ],
+        [
+          316.5,
+          593.61328125
+        ]
+      ]
+    },
+    {
+      "title": "E1 Hallucinations",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          316.5,
+          606.375
+        ],
+        [
+          420.15234375,
+          606.375
+        ],
+        [
+          420.15234375,
+          618.75
+        ],
+        [
+          316.5,
+          618.75
+        ]
+      ]
+    },
+    {
+      "title": "System Message",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          58.5,
+          71.25
+        ],
+        [
+          122.25,
+          71.25
+        ],
+        [
+          122.25,
+          80.5341796875
+        ],
+        [
+          58.5,
+          80.5341796875
+        ]
+      ]
+    },
+    {
+      "title": "Prompt",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          58.5,
+          153.0
+        ],
+        [
+          90.0,
+          153.0
+        ],
+        [
+          90.0,
+          162.5185546875
+        ],
+        [
+          58.5,
+          162.5185546875
+        ]
+      ]
+    },
+    {
+      "title": "G Packages and Modules Explanation",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          316.5,
+          323.25
+        ],
+        [
+          520.5,
+          323.25
+        ],
+        [
+          520.5,
+          334.125
+        ],
+        [
+          316.5,
+          334.125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          92
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          102
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          106
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          92
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          102
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          88
+        ],
+        [
+          "Span",
+          88
+        ],
+        [
+          "TableCell",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          112
+        ],
+        [
+          "Span",
+          112
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          110
+        ],
+        [
+          "Span",
+          110
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          116
+        ],
+        [
+          "Span",
+          116
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          101
+        ],
+        [
+          "Span",
+          101
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          90
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          103
+        ],
+        [
+          "Span",
+          103
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          90
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "TableCell",
+          27
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          94
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          94
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "ListItem",
+          23
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          92
+        ],
+        [
+          "ListItem",
+          25
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          92
+        ],
+        [
+          "ListItem",
+          24
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          79
+        ],
+        [
+          "Span",
+          79
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          12
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          85
+        ],
+        [
+          "Span",
+          85
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          310
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2406.10279"
+}
