@@ -1,0 +1,1277 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Invisible Prompts, Visible Threats: Malicious Font Injection in External\nResources for Large Language Models",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          76.47122430681281,
+          77.96666208676537
+        ],
+        [
+          518.0550587843888,
+          77.96666208676537
+        ],
+        [
+          518.0550587843888,
+          107.4971869289875
+        ],
+        [
+          76.47122430681281,
+          107.4971869289875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          155.06823560595512,
+          214.40832073860474
+        ],
+        [
+          203.1735469328066,
+          214.40832073860474
+        ],
+        [
+          203.1735469328066,
+          225.0658120214939
+        ],
+        [
+          155.06823560595512,
+          225.0658120214939
+        ]
+      ]
+    },
+    {
+      "title": "Introduction\n1",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.85058727115393,
+          509.78202133654275
+        ],
+        [
+          154.44188438434745,
+          509.78202133654275
+        ],
+        [
+          154.44188438434745,
+          520.8372307419777
+        ],
+        [
+          68.85058727115393,
+          520.8372307419777
+        ]
+      ]
+    },
+    {
+      "title": "Related Works\n\\overline{2}",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.97404545320371,
+          479.72931987047195
+        ],
+        [
+          165.24140945076942,
+          479.72931987047195
+        ],
+        [
+          165.24140945076942,
+          492.0616931319237
+        ],
+        [
+          68.97404545320371,
+          492.0616931319237
+        ]
+      ]
+    },
+    {
+      "title": "2.1\nPrompt Injection Attack",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.97404545320371,
+          500.2832753062248
+        ],
+        [
+          210.67072578641572,
+          500.2832753062248
+        ],
+        [
+          210.67072578641572,
+          512.6156485676765
+        ],
+        [
+          68.97404545320371,
+          512.6156485676765
+        ]
+      ]
+    },
+    {
+      "title": "2.2\\phantom{0}\nIndirect Prompt Injection via External\nResources",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.38546145652947,
+          73.12069646269083
+        ],
+        [
+          511.56531333923346,
+          73.12069646269083
+        ],
+        [
+          511.56531333923346,
+          97.06605454534292
+        ],
+        [
+          304.38546145652947,
+          97.06605454534292
+        ]
+      ]
+    },
+    {
+      "title": "2.3 LLM Usage with MCP",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.38546145652947,
+          397.1024190187454
+        ],
+        [
+          437.83524505077145,
+          397.1024190187454
+        ],
+        [
+          437.83524505077145,
+          409.0237131714821
+        ],
+        [
+          304.38546145652947,
+          409.0237131714821
+        ]
+      ]
+    },
+    {
+      "title": "3 Methods and Materials",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.38546145652947,
+          573.5047740036106
+        ],
+        [
+          443.8329881336587,
+          573.5047740036106
+        ],
+        [
+          443.8329881336587,
+          585.3766508102417
+        ],
+        [
+          304.38546145652947,
+          585.3766508102417
+        ]
+      ]
+    },
+    {
+      "title": "Malicious Font\n3.1",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.38546145652947,
+          594.831470310688
+        ],
+        [
+          401.09906866808683,
+          594.831470310688
+        ],
+        [
+          401.09906866808683,
+          606.3416853547096
+        ],
+        [
+          304.38546145652947,
+          606.3416853547096
+        ]
+      ]
+    },
+    {
+      "title": "Experiment Design\n3.2",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.38546145652947,
+          497.78715024627115
+        ],
+        [
+          420.5917336874705,
+          497.78715024627115
+        ],
+        [
+          420.5917336874705,
+          508.50485748052597
+        ],
+        [
+          304.38546145652947,
+          508.50485748052597
+        ]
+      ]
+    },
+    {
+      "title": "3.3\nScenario 1: Malicious Content Relay",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          304.38546145652947,
+          432.56503869291936
+        ],
+        [
+          502.3109831918097,
+          432.56503869291936
+        ],
+        [
+          502.3109831918097,
+          444.376516520977
+        ],
+        [
+          304.38546145652947,
+          444.376516520977
+        ]
+      ]
+    },
+    {
+      "title": "3.4\nScenario 2: Sensitive Data Leakage",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          68.97404545320371,
+          275.1323556331047
+        ],
+        [
+          260.1521062202358,
+          275.1323556331047
+        ],
+        [
+          260.1521062202358,
+          286.31659922003746
+        ],
+        [
+          68.97404545320371,
+          286.31659922003746
+        ]
+      ]
+    },
+    {
+      "title": "\\overline{4}\nExperiment Result",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          68.97404545320371,
+          72.55546268820763
+        ],
+        [
+          185.9300355695057,
+          72.55546268820763
+        ],
+        [
+          185.9300355695057,
+          84.06567773222923
+        ],
+        [
+          68.97404545320371,
+          84.06567773222923
+        ]
+      ]
+    },
+    {
+      "title": "Scenario 1: Malicious Content Relay\n4.1",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.72376333856462,
+          93.70993039274683
+        ],
+        [
+          267.64928507384485,
+          93.70993039274683
+        ],
+        [
+          267.64928507384485,
+          105.13348205387592
+        ],
+        [
+          69.72376333856462,
+          105.13348205387592
+        ]
+      ]
+    },
+    {
+      "title": "4.2\nScenario 2: Sensitive Data Leakage",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          304.38546145652947,
+          496.99464243650436
+        ],
+        [
+          495.5635222235615,
+          496.99464243650436
+        ],
+        [
+          495.5635222235615,
+          507.68269926309586
+        ],
+        [
+          304.38546145652947,
+          507.68269926309586
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1 Data Sensitivity Level Analysis",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          68.97404545320371,
+          569.0066973447588
+        ],
+        [
+          248.1566200544612,
+          569.0066973447588
+        ],
+        [
+          248.1566200544612,
+          579.6215432882309
+        ],
+        [
+          68.97404545320371,
+          579.6215432882309
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2 Prior Email Request Analysis",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          304.38546145652947,
+          689.7050876906167
+        ],
+        [
+          477.57029297489964,
+          689.7050876906167
+        ],
+        [
+          477.57029297489964,
+          701.3009594678879
+        ],
+        [
+          304.38546145652947,
+          701.3009594678879
+        ]
+      ]
+    },
+    {
+      "title": "4.2.3 Hidden Prompt Design Analysis",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          304.38546145652947,
+          188.16954022863564
+        ],
+        [
+          488.81606125531334,
+          188.16954022863564
+        ],
+        [
+          488.81606125531334,
+          200.40106549859047
+        ],
+        [
+          304.38546145652947,
+          200.40106549859047
+        ]
+      ]
+    },
+    {
+      "title": "Discussion\n5",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          304.38546145652947,
+          497.0374708031292
+        ],
+        [
+          378.60753210725954,
+          497.0374708031292
+        ],
+        [
+          378.60753210725954,
+          508.915936589241
+        ],
+        [
+          304.38546145652947,
+          508.915936589241
+        ]
+      ]
+    },
+    {
+      "title": "Conclusions\n6",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          68.97404545320371,
+          71.96922654162957
+        ],
+        [
+          151.4430128429038,
+          71.96922654162957
+        ],
+        [
+          151.4430128429038,
+          84.52814172953367
+        ],
+        [
+          68.97404545320371,
+          84.52814172953367
+        ]
+      ]
+    },
+    {
+      "title": "Limitations",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          68.97404545320371,
+          295.373700597938
+        ],
+        [
+          131.20062993815924,
+          295.373700597938
+        ],
+        [
+          131.20062993815924,
+          307.2816337645054
+        ],
+        [
+          68.97404545320371,
+          307.2816337645054
+        ]
+      ]
+    },
+    {
+      "title": "Ethics Statement",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          68.97404545320371,
+          491.7897147011354
+        ],
+        [
+          158.94019169651293,
+          491.7897147011354
+        ],
+        [
+          158.94019169651293,
+          503.98298728466034
+        ],
+        [
+          68.97404545320371,
+          503.98298728466034
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.72376333856462,
+          687.735348880291
+        ],
+        [
+          127.4520405113547,
+          687.735348880291
+        ],
+        [
+          127.4520405113547,
+          699.2455639243126
+        ],
+        [
+          69.72376333856462,
+          699.2455639243126
+        ]
+      ]
+    },
+    {
+      "title": "\\mathbf{A}\nCraft Malicious Font",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.72376333856462,
+          71.57914980500937
+        ],
+        [
+          200.17467539136297,
+          71.57914980500937
+        ],
+        [
+          200.17467539136297,
+          84.52814172953367
+        ],
+        [
+          69.72376333856462,
+          84.52814172953367
+        ]
+      ]
+    },
+    {
+      "title": "A.1 Case I: Single Code in a Code Segment",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          68.97404545320371,
+          199.1678281724453
+        ],
+        [
+          279.9076117873192,
+          199.1678281724453
+        ],
+        [
+          279.9076117873192,
+          211.08912232518196
+        ],
+        [
+          68.97404545320371,
+          211.08912232518196
+        ]
+      ]
+    },
+    {
+      "title": "A.2 Case II: Multiple Codes in a Code Segment",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          68.97404545320371,
+          431.63306415081024
+        ],
+        [
+          299.887154144364,
+          431.63306415081024
+        ],
+        [
+          299.887154144364,
+          443.14327919483185
+        ],
+        [
+          68.97404545320371,
+          443.14327919483185
+        ]
+      ]
+    },
+    {
+      "title": "A.3 Malicious Font Detection and Embedding",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          68.97404545320371,
+          136.37549431622028
+        ],
+        [
+          292.3899752907549,
+          136.37549431622028
+        ],
+        [
+          292.3899752907549,
+          148.707867577672
+        ],
+        [
+          68.97404545320371,
+          148.707867577672
+        ]
+      ]
+    },
+    {
+      "title": "B\nData Sensitivity Level",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          68.97404545320371,
+          410.87356916069984
+        ],
+        [
+          203.1735469328066,
+          410.87356916069984
+        ],
+        [
+          203.1735469328066,
+          423.00040286779404
+        ],
+        [
+          68.97404545320371,
+          423.00040286779404
+        ]
+      ]
+    },
+    {
+      "title": "\\mathbf C\nMalicious Content Relay Example",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          68.97404545320371,
+          558.656508743763
+        ],
+        [
+          266.39182367920876,
+          558.656508743763
+        ],
+        [
+          266.39182367920876,
+          572.6331984400749
+        ],
+        [
+          68.97404545320371,
+          572.6331984400749
+        ]
+      ]
+    },
+    {
+      "title": "Sensitive Data Leakage Example\n\\mathbf D",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          68.97404545320371,
+          711.9890162944794
+        ],
+        [
+          259.41593304276466,
+          711.9890162944794
+        ],
+        [
+          259.41593304276466,
+          725.1435477733612
+        ],
+        [
+          68.97404545320371,
+          725.1435477733612
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          100
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          143
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          111
+        ],
+        [
+          "Span",
+          68
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          98
+        ],
+        [
+          "Span",
+          96
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "TableCell",
+          35
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "FigureGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          100
+        ],
+        [
+          "Span",
+          76
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          101
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          86
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          69
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          66
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2505.16957"
+}
