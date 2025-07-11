@@ -1,0 +1,734 @@
+{
+  "table_of_contents": [
+    {
+      "title": "We Urgently Need Privilege Management in MCP:\nA Measurement of API Usage in MCP Ecosystems",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          51.75,
+          54.75
+        ],
+        [
+          559.5,
+          54.75
+        ],
+        [
+          559.5,
+          103.5439453125
+        ],
+        [
+          51.75,
+          103.5439453125
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.5,
+          442.5
+        ],
+        [
+          213.75,
+          442.5
+        ],
+        [
+          213.75,
+          452.4609375
+        ],
+        [
+          133.5,
+          452.4609375
+        ]
+      ]
+    },
+    {
+      "title": "II. BACKGROUND",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          134.25,
+          225.75
+        ],
+        [
+          213.36328125,
+          225.75
+        ],
+        [
+          213.36328125,
+          236.478515625
+        ],
+        [
+          134.25,
+          236.478515625
+        ]
+      ]
+    },
+    {
+      "title": "A. MCP in a Nutshell",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.25,
+          240.75
+        ],
+        [
+          141.56982421875,
+          240.75
+        ],
+        [
+          141.56982421875,
+          251.560546875
+        ],
+        [
+          47.25,
+          251.560546875
+        ]
+      ]
+    },
+    {
+      "title": "B. MCP Architecture",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.476318359375,
+          419.203125
+        ],
+        [
+          136.564453125,
+          419.203125
+        ],
+        [
+          136.564453125,
+          429.2578125
+        ],
+        [
+          47.476318359375,
+          429.2578125
+        ]
+      ]
+    },
+    {
+      "title": "C. MCP Communication",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          48.0,
+          609.46875
+        ],
+        [
+          151.9541015625,
+          609.46875
+        ],
+        [
+          151.9541015625,
+          618.75
+        ],
+        [
+          48.0,
+          618.75
+        ]
+      ]
+    },
+    {
+      "title": "III. TAXONOMY OF MCP-ACCESSIBLE RESOURCES",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          325.5,
+          367.5
+        ],
+        [
+          549.0,
+          367.5
+        ],
+        [
+          549.0,
+          378.404296875
+        ],
+        [
+          325.5,
+          378.404296875
+        ]
+      ]
+    },
+    {
+      "title": "IV. MOTIVATION AND RESEARCH QUESTION",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          76.5,
+          269.25
+        ],
+        [
+          270.75,
+          269.25
+        ],
+        [
+          270.75,
+          278.4375
+        ],
+        [
+          76.5,
+          278.4375
+        ]
+      ]
+    },
+    {
+      "title": "V. DESIGN AND IMPLEMENTATION",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          362.25,
+          285.0
+        ],
+        [
+          512.25,
+          285.0
+        ],
+        [
+          512.25,
+          294.873046875
+        ],
+        [
+          362.25,
+          294.873046875
+        ]
+      ]
+    },
+    {
+      "title": "A. Design",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          309.75,
+          305.89453125
+        ],
+        [
+          354.41015625,
+          305.89453125
+        ],
+        [
+          354.41015625,
+          315.17578125
+        ],
+        [
+          309.75,
+          315.17578125
+        ]
+      ]
+    },
+    {
+      "title": "B. Implementation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          48.0,
+          477.59765625
+        ],
+        [
+          126.0,
+          477.59765625
+        ],
+        [
+          126.0,
+          487.65234375
+        ],
+        [
+          48.0,
+          487.65234375
+        ]
+      ]
+    },
+    {
+      "title": "VI. EVALUATION",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          399.0,
+          214.5
+        ],
+        [
+          475.435546875,
+          214.5
+        ],
+        [
+          475.435546875,
+          224.490234375
+        ],
+        [
+          399.0,
+          224.490234375
+        ]
+      ]
+    },
+    {
+      "title": "A. Experiment Setup",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          309.75,
+          230.25
+        ],
+        [
+          397.5,
+          230.25
+        ],
+        [
+          397.5,
+          239.958984375
+        ],
+        [
+          309.75,
+          239.958984375
+        ]
+      ]
+    },
+    {
+      "title": "B. Experiment Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          310.5,
+          346.5
+        ],
+        [
+          404.314453125,
+          346.5
+        ],
+        [
+          404.314453125,
+          357.134765625
+        ],
+        [
+          310.5,
+          357.134765625
+        ]
+      ]
+    },
+    {
+      "title": "VII. PRACTICAL SECURITY THREAT ANALYSIS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          336.0,
+          332.25
+        ],
+        [
+          538.5,
+          332.25
+        ],
+        [
+          538.5,
+          342.24609375
+        ],
+        [
+          336.0,
+          342.24609375
+        ]
+      ]
+    },
+    {
+      "title": "VIII. OPEN QUESTIONS AND FUTURE DIRECTIONS",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          64.5,
+          261.0
+        ],
+        [
+          285.5302734375,
+          261.0
+        ],
+        [
+          285.5302734375,
+          270.896484375
+        ],
+        [
+          64.5,
+          270.896484375
+        ]
+      ]
+    },
+    {
+      "title": "IX. RELATED WORK",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          390.75,
+          131.25
+        ],
+        [
+          483.0,
+          131.25
+        ],
+        [
+          483.0,
+          141.2490234375
+        ],
+        [
+          390.75,
+          141.2490234375
+        ]
+      ]
+    },
+    {
+      "title": "X. CONCLUSION",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          399.75,
+          394.5
+        ],
+        [
+          474.75,
+          394.5
+        ],
+        [
+          474.75,
+          404.89453125
+        ],
+        [
+          399.75,
+          404.89453125
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          408.0,
+          539.25
+        ],
+        [
+          466.5,
+          539.25
+        ],
+        [
+          466.5,
+          549.140625
+        ],
+        [
+          408.0,
+          549.140625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          98
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          109
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          83
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          101
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          186
+        ],
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          77
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          112
+        ],
+        [
+          "Span",
+          112
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          44
+        ],
+        [
+          "Span",
+          44
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2507.06250"
+}
