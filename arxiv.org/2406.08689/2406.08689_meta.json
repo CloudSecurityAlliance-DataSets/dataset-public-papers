@@ -1,0 +1,907 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Security of AI Agents",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          195.75,
+          54.0
+        ],
+        [
+          415.37109375,
+          54.0
+        ],
+        [
+          415.37109375,
+          75.796875
+        ],
+        [
+          195.75,
+          75.796875
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          134.25,
+          339.0
+        ],
+        [
+          213.75,
+          339.0
+        ],
+        [
+          213.75,
+          347.853515625
+        ],
+        [
+          134.25,
+          347.853515625
+        ]
+      ]
+    },
+    {
+      "title": "II. THREAT MODEL",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          131.25,
+          441.75
+        ],
+        [
+          216.0,
+          441.75
+        ],
+        [
+          216.0,
+          452.07421875
+        ],
+        [
+          131.25,
+          452.07421875
+        ]
+      ]
+    },
+    {
+      "title": "III. POTENTIAL VULNERABILITIES",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          98.25,
+          561.0
+        ],
+        [
+          249.0,
+          561.0
+        ],
+        [
+          249.0,
+          571.18359375
+        ],
+        [
+          98.25,
+          571.18359375
+        ]
+      ]
+    },
+    {
+      "title": "A. Sessions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.25,
+          609.75
+        ],
+        [
+          97.716796875,
+          609.75
+        ],
+        [
+          97.716796875,
+          619.5234375
+        ],
+        [
+          47.25,
+          619.5234375
+        ]
+      ]
+    },
+    {
+      "title": "B. Model pollution and privacy leak",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          310.5,
+          409.5
+        ],
+        [
+          463.5,
+          409.5
+        ],
+        [
+          463.5,
+          419.203125
+        ],
+        [
+          310.5,
+          419.203125
+        ]
+      ]
+    },
+    {
+      "title": "C. Agent programs",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          47.9619140625,
+          655.5
+        ],
+        [
+          129.0,
+          655.5
+        ],
+        [
+          129.0,
+          666.31640625
+        ],
+        [
+          47.9619140625,
+          666.31640625
+        ]
+      ]
+    },
+    {
+      "title": "IV. DEFENSES",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          141.75,
+          348.75
+        ],
+        [
+          206.25,
+          348.75
+        ],
+        [
+          206.25,
+          358.681640625
+        ],
+        [
+          141.75,
+          358.681640625
+        ]
+      ]
+    },
+    {
+      "title": "A. Sessions",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          47.25,
+          406.5
+        ],
+        [
+          96.75,
+          406.5
+        ],
+        [
+          96.75,
+          416.8828125
+        ],
+        [
+          47.25,
+          416.8828125
+        ]
+      ]
+    },
+    {
+      "title": "B. Sandbox",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          310.5,
+          525.75
+        ],
+        [
+          360.685546875,
+          525.75
+        ],
+        [
+          360.685546875,
+          535.21875
+        ],
+        [
+          310.5,
+          535.21875
+        ]
+      ]
+    },
+    {
+      "title": "C. Protecting Models for AI Agents",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          310.18359375,
+          536.25
+        ],
+        [
+          459.75,
+          536.25
+        ],
+        [
+          459.75,
+          546.43359375
+        ],
+        [
+          310.18359375,
+          546.43359375
+        ]
+      ]
+    },
+    {
+      "title": "V. RELATED WORK",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          395.25,
+          51.0
+        ],
+        [
+          479.3203125,
+          51.0
+        ],
+        [
+          479.3203125,
+          60.47314453125
+        ],
+        [
+          395.25,
+          60.47314453125
+        ]
+      ]
+    },
+    {
+      "title": "VI. CONCLUSION",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          397.5,
+          347.25
+        ],
+        [
+          477.0,
+          347.25
+        ],
+        [
+          477.0,
+          357.521484375
+        ],
+        [
+          397.5,
+          357.521484375
+        ]
+      ]
+    },
+    {
+      "title": "ACKNOWLEGEMENT",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          391.763671875,
+          573.0
+        ],
+        [
+          481.412109375,
+          573.0
+        ],
+        [
+          481.412109375,
+          582.01171875
+        ],
+        [
+          391.763671875,
+          582.01171875
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          408.75,
+          606.0
+        ],
+        [
+          465.75,
+          606.0
+        ],
+        [
+          465.75,
+          616.04296875
+        ],
+        [
+          408.75,
+          616.04296875
+        ]
+      ]
+    },
+    {
+      "title": "APPENDIX",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          150.4599609375,
+          51.0
+        ],
+        [
+          198.5712890625,
+          51.0
+        ],
+        [
+          198.5712890625,
+          60.908203125
+        ],
+        [
+          150.4599609375,
+          60.908203125
+        ]
+      ]
+    },
+    {
+      "title": "A. Additional related work on system and software security",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          47.25,
+          69.0
+        ],
+        [
+          295.0927734375,
+          69.0
+        ],
+        [
+          295.0927734375,
+          78.890625
+        ],
+        [
+          47.25,
+          78.890625
+        ]
+      ]
+    },
+    {
+      "title": "B. Additional Experiments",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          310.5,
+          420.0
+        ],
+        [
+          421.5,
+          420.0
+        ],
+        [
+          421.5,
+          429.64453125
+        ],
+        [
+          310.5,
+          429.64453125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          115
+        ],
+        [
+          "Span",
+          97
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          105
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          88
+        ],
+        [
+          "Span",
+          56
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "FigureGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          110
+        ],
+        [
+          "Span",
+          105
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          108
+        ],
+        [
+          "Span",
+          106
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          95
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "TableCell",
+          25
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          141
+        ],
+        [
+          "Line",
+          105
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          115
+        ],
+        [
+          "Span",
+          97
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          130
+        ],
+        [
+          "Line",
+          129
+        ],
+        [
+          "ListItem",
+          31
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          132
+        ],
+        [
+          "ListItem",
+          31
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2406.08689"
+}
