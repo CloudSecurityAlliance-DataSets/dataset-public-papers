@@ -1,0 +1,698 @@
+{
+  "table_of_contents": [
+    {
+      "title": "QuantMCP: Grounding Large Language Models in Verifiable Financial Reality",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.75,
+          89.25
+        ],
+        [
+          540.87890625,
+          89.25
+        ],
+        [
+          540.87890625,
+          103.9306640625
+        ],
+        [
+          54.75,
+          103.9306640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          148.3681640625,
+          175.5
+        ],
+        [
+          195.75,
+          175.5
+        ],
+        [
+          195.75,
+          187.9453125
+        ],
+        [
+          148.3681640625,
+          187.9453125
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.0,
+          530.25
+        ],
+        [
+          132.75,
+          530.25
+        ],
+        [
+          132.75,
+          541.79296875
+        ],
+        [
+          54.0,
+          541.79296875
+        ]
+      ]
+    },
+    {
+      "title": "2. Background",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          54.0,
+          381.75
+        ],
+        [
+          130.5,
+          381.75
+        ],
+        [
+          130.5,
+          393.099609375
+        ],
+        [
+          54.0,
+          393.099609375
+        ]
+      ]
+    },
+    {
+      "title": "3. The QuantMCP Framework",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          306.0,
+          551.07421875
+        ],
+        [
+          466.171875,
+          551.07421875
+        ],
+        [
+          466.171875,
+          562.67578125
+        ],
+        [
+          306.0,
+          562.67578125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Detailed Description",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          54.0,
+          344.25
+        ],
+        [
+          161.25,
+          344.25
+        ],
+        [
+          161.25,
+          354.814453125
+        ],
+        [
+          54.0,
+          354.814453125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Ensuring Data Accuracy and Mitigating\nHallucination",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          93.75
+        ],
+        [
+          245.25,
+          93.75
+        ],
+        [
+          245.25,
+          115.435546875
+        ],
+        [
+          54.0,
+          115.435546875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Security Considerations within MCP",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          353.4609375
+        ],
+        [
+          230.25,
+          353.4609375
+        ],
+        [
+          230.25,
+          363.90234375
+        ],
+        [
+          54.0,
+          363.90234375
+        ]
+      ]
+    },
+    {
+      "title": "3.4. User-Friendly Financial Data Access",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          540.0
+        ],
+        [
+          228.75,
+          540.0
+        ],
+        [
+          228.75,
+          550.30078125
+        ],
+        [
+          54.0,
+          550.30078125
+        ]
+      ]
+    },
+    {
+      "title": "4. Implementation and Case Studies",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.0,
+          389.0390625
+        ],
+        [
+          492.0,
+          389.0390625
+        ],
+        [
+          492.0,
+          400.640625
+        ],
+        [
+          306.0,
+          400.640625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Prototypical Implementation Details",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          305.25,
+          494.25
+        ],
+        [
+          480.0,
+          493.5
+        ],
+        [
+          480.0,
+          504.66796875
+        ],
+        [
+          306.0,
+          504.66796875
+        ]
+      ]
+    },
+    {
+      "title": "QuantMCP: Grounding LLMs in Verifiable Financial Reality",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          180.0,
+          46.5
+        ],
+        [
+          416.865234375,
+          46.5
+        ],
+        [
+          416.865234375,
+          55.5
+        ],
+        [
+          180.0,
+          55.5
+        ]
+      ]
+    },
+    {
+      "title": "4.2. Illustrative Workflow: Querying and Analyzing\nStock Data with QuantMCP",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          306.0,
+          389.25
+        ],
+        [
+          528.75,
+          389.25
+        ],
+        [
+          528.75,
+          411.08203125
+        ],
+        [
+          306.0,
+          411.08203125
+        ]
+      ]
+    },
+    {
+      "title": "5. Discussion",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.0,
+          615.0
+        ],
+        [
+          122.25,
+          615.0
+        ],
+        [
+          122.25,
+          626.09765625
+        ],
+        [
+          54.0,
+          626.09765625
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          54.0,
+          132.75
+        ],
+        [
+          111.75,
+          132.75
+        ],
+        [
+          111.75,
+          143.859375
+        ],
+        [
+          54.0,
+          143.859375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          98
+        ],
+        [
+          "Span",
+          98
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          100
+        ],
+        [
+          "Span",
+          64
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          98
+        ],
+        [
+          "Span",
+          98
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          87
+        ],
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          91
+        ],
+        [
+          "Span",
+          79
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          50
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2506.06622"
+}
