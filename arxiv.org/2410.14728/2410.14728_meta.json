@@ -1,0 +1,1046 @@
+{
+  "table_of_contents": [
+    {
+      "title": "ABSTRACT",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          276.75,
+          319.5
+        ],
+        [
+          336.181640625,
+          319.5
+        ],
+        [
+          336.181640625,
+          330.064453125
+        ],
+        [
+          276.75,
+          330.064453125
+        ]
+      ]
+    },
+    {
+      "title": "Introduction\n\\mathbf{1}",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.44873046875,
+          473.25
+        ],
+        [
+          155.25,
+          473.25
+        ],
+        [
+          155.25,
+          484.55859375
+        ],
+        [
+          70.44873046875,
+          484.55859375
+        ]
+      ]
+    },
+    {
+      "title": "\\boldsymbol{2}\nLiterature Review",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.5,
+          633.75
+        ],
+        [
+          183.0,
+          633.75
+        ],
+        [
+          183.0,
+          644.66015625
+        ],
+        [
+          70.5,
+          644.66015625
+        ]
+      ]
+    },
+    {
+      "title": "2.1 AI agent architectures",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5,
+          121.236328125
+        ],
+        [
+          191.84765625,
+          121.236328125
+        ],
+        [
+          191.84765625,
+          133.03125
+        ],
+        [
+          70.5,
+          133.03125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 AI and Database Interactions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5,
+          201.673828125
+        ],
+        [
+          222.029296875,
+          201.673828125
+        ],
+        [
+          222.029296875,
+          213.662109375
+        ],
+        [
+          70.5,
+          213.662109375
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Natural Language Processing",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5,
+          282.884765625
+        ],
+        [
+          223.3740234375,
+          282.884765625
+        ],
+        [
+          223.3740234375,
+          294.873046875
+        ],
+        [
+          70.5,
+          294.873046875
+        ]
+      ]
+    },
+    {
+      "title": "2.4 Scalability and Performance",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5,
+          374.537109375
+        ],
+        [
+          218.2939453125,
+          374.537109375
+        ],
+        [
+          218.2939453125,
+          386.138671875
+        ],
+        [
+          70.5,
+          386.138671875
+        ]
+      ]
+    },
+    {
+      "title": "2.5 Latency and Accuracy",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5,
+          454.78125
+        ],
+        [
+          191.25,
+          454.78125
+        ],
+        [
+          191.25,
+          466.3828125
+        ],
+        [
+          70.5,
+          466.3828125
+        ]
+      ]
+    },
+    {
+      "title": "2.6 Ethical Implications",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5,
+          579.3046875
+        ],
+        [
+          182.7333984375,
+          579.3046875
+        ],
+        [
+          182.7333984375,
+          590.90625
+        ],
+        [
+          70.5,
+          590.90625
+        ]
+      ]
+    },
+    {
+      "title": "3<sup>1</sup>\nMethodology",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5,
+          662.8359375
+        ],
+        [
+          158.9765625,
+          662.8359375
+        ],
+        [
+          158.9765625,
+          675.984375
+        ],
+        [
+          70.5,
+          675.984375
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Literature Review",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          72.6064453125
+        ],
+        [
+          173.619140625,
+          72.6064453125
+        ],
+        [
+          173.619140625,
+          83.8212890625
+        ],
+        [
+          70.5,
+          83.8212890625
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Case Studies",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          171.31640625
+        ],
+        [
+          150.4599609375,
+          171.31640625
+        ],
+        [
+          150.4599609375,
+          182.724609375
+        ],
+        [
+          70.5,
+          182.724609375
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1 Expert Interviews",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          246.919921875
+        ],
+        [
+          180.193359375,
+          246.919921875
+        ],
+        [
+          180.193359375,
+          258.521484375
+        ],
+        [
+          70.5,
+          258.521484375
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Data Analysis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          334.318359375
+        ],
+        [
+          155.689453125,
+          334.318359375
+        ],
+        [
+          155.689453125,
+          345.533203125
+        ],
+        [
+          70.5,
+          345.533203125
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Ethical Considerations",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          411.46875
+        ],
+        [
+          192.75,
+          411.46875
+        ],
+        [
+          192.75,
+          423.0703125
+        ],
+        [
+          70.5,
+          423.0703125
+        ]
+      ]
+    },
+    {
+      "title": "The Problem: AI Agents with Direct Data Access in Industry\n\\blacktriangleleft",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          491.1328125
+        ],
+        [
+          402.8203125,
+          491.1328125
+        ],
+        [
+          402.8203125,
+          503.5078125
+        ],
+        [
+          70.5,
+          503.5078125
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Privacy Concerns",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          573.0
+        ],
+        [
+          173.3203125,
+          573.0
+        ],
+        [
+          173.3203125,
+          584.33203125
+        ],
+        [
+          70.5,
+          584.33203125
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Security Vulnerabilities",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          672.890625
+        ],
+        [
+          200.513671875,
+          672.890625
+        ],
+        [
+          200.513671875,
+          683.71875
+        ],
+        [
+          70.5,
+          683.71875
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Compliance and Regulatory Challenges",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.5,
+          362.162109375
+        ],
+        [
+          264.0,
+          362.162109375
+        ],
+        [
+          264.0,
+          373.376953125
+        ],
+        [
+          70.5,
+          373.376953125
+        ]
+      ]
+    },
+    {
+      "title": "4.4 Scalability and Performance Issues",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.5,
+          462.0
+        ],
+        [
+          245.4873046875,
+          462.0
+        ],
+        [
+          245.4873046875,
+          472.95703125
+        ],
+        [
+          70.5,
+          472.95703125
+        ]
+      ]
+    },
+    {
+      "title": "4.5 Ethical and Bias Concerns",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.336669921875,
+          550.5
+        ],
+        [
+          208.5,
+          550.5
+        ],
+        [
+          208.5,
+          561.90234375
+        ],
+        [
+          70.336669921875,
+          561.90234375
+        ]
+      ]
+    },
+    {
+      "title": "4.6 Data Quality and Integrity",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.5,
+          651.234375
+        ],
+        [
+          209.3291015625,
+          651.234375
+        ],
+        [
+          209.3291015625,
+          662.0625
+        ],
+        [
+          70.5,
+          662.0625
+        ]
+      ]
+    },
+    {
+      "title": "Security Vulnerabilities in AI and Large Language Models\n5",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.5,
+          71.0595703125
+        ],
+        [
+          391.166015625,
+          71.0595703125
+        ],
+        [
+          391.166015625,
+          84.3046875
+        ],
+        [
+          70.5,
+          84.3046875
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Attack Surface Expansion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.5,
+          537.92578125
+        ],
+        [
+          207.5361328125,
+          537.92578125
+        ],
+        [
+          207.5361328125,
+          548.75390625
+        ],
+        [
+          70.5,
+          548.75390625
+        ]
+      ]
+    },
+    {
+      "title": "5.2\nData Manipulation Risks and Prompt Injections",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.5,
+          232.998046875
+        ],
+        [
+          300.919921875,
+          232.998046875
+        ],
+        [
+          300.919921875,
+          244.212890625
+        ],
+        [
+          70.5,
+          244.212890625
+        ]
+      ]
+    },
+    {
+      "title": "5.3 API Usage and Sensitive Data Exposure",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.5,
+          435.4453125
+        ],
+        [
+          264.76171875,
+          435.4453125
+        ],
+        [
+          264.76171875,
+          446.2734375
+        ],
+        [
+          70.5,
+          446.2734375
+        ]
+      ]
+    },
+    {
+      "title": "5.4 Mitigating Security Vulnerabilities",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.5,
+          119.7861328125
+        ],
+        [
+          243.544921875,
+          119.7861328125
+        ],
+        [
+          243.544921875,
+          131.1943359375
+        ],
+        [
+          70.5,
+          131.1943359375
+        ]
+      ]
+    },
+    {
+      "title": "Conclusion\n6",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.5,
+          227.390625
+        ],
+        [
+          148.81640625,
+          227.390625
+        ],
+        [
+          148.81640625,
+          239.765625
+        ],
+        [
+          70.5,
+          239.765625
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.5,
+          421.91015625
+        ],
+        [
+          129.0,
+          421.91015625
+        ],
+        [
+          129.0,
+          434.28515625
+        ],
+        [
+          70.5,
+          434.28515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          43
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          47
+        ],
+        [
+          "Span",
+          47
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          56
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          58
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          50
+        ],
+        [
+          "Span",
+          50
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2410.14728"
+}
