@@ -1,0 +1,997 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Security of Internet of Agents: Attacks and\nCountermeasures",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          90.3955078125,
+          59.25
+        ],
+        [
+          519.9609375,
+          59.25
+        ],
+        [
+          519.9609375,
+          108.3779296875
+        ],
+        [
+          90.3955078125,
+          108.3779296875
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.5,
+          372.0
+        ],
+        [
+          213.75,
+          372.0
+        ],
+        [
+          213.75,
+          381.498046875
+        ],
+        [
+          133.5,
+          381.498046875
+        ]
+      ]
+    },
+    {
+      "title": "A. Paper Organization",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.5,
+          552.0
+        ],
+        [
+          143.25,
+          552.0
+        ],
+        [
+          143.25,
+          562.2890625
+        ],
+        [
+          46.5,
+          562.2890625
+        ]
+      ]
+    },
+    {
+      "title": "II. OVERVIEW OF INTERNET OF AGENTS AND ITS\nSECURITY AND PRIVACY LANDSCAPE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.75,
+          675.75
+        ],
+        [
+          281.25,
+          675.75
+        ],
+        [
+          281.25,
+          696.48046875
+        ],
+        [
+          66.75,
+          696.48046875
+        ]
+      ]
+    },
+    {
+      "title": "A. Overview of IoA",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          309.75,
+          229.5
+        ],
+        [
+          393.2578125,
+          229.5
+        ],
+        [
+          393.2578125,
+          238.9921875
+        ],
+        [
+          309.75,
+          238.9921875
+        ]
+      ]
+    },
+    {
+      "title": "B. Representative Agent Communication Protocols",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          309.5859375,
+          686.0390625
+        ],
+        [
+          520.5,
+          686.0390625
+        ],
+        [
+          520.5,
+          695.3203125
+        ],
+        [
+          309.5859375,
+          695.3203125
+        ]
+      ]
+    },
+    {
+      "title": "C. Key Characteristics of IoA Security Landscape",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.0,
+          495.0
+        ],
+        [
+          255.0,
+          495.0
+        ],
+        [
+          255.0,
+          505.44140625
+        ],
+        [
+          48.0,
+          505.44140625
+        ]
+      ]
+    },
+    {
+      "title": "III. AGENT IDENTITY AUTHENTICATION THREATS IN IOA",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          312.0,
+          639.0
+        ],
+        [
+          562.5,
+          639.0
+        ],
+        [
+          562.5,
+          649.6875
+        ],
+        [
+          312.0,
+          649.6875
+        ]
+      ]
+    },
+    {
+      "title": "IV. CROSS-AGENT TRUST ISSUES IN IOA",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          84.75,
+          431.25
+        ],
+        [
+          264.462890625,
+          431.25
+        ],
+        [
+          264.462890625,
+          442.01953125
+        ],
+        [
+          84.75,
+          442.01953125
+        ]
+      ]
+    },
+    {
+      "title": "V. EMBODIED SECURITY IN IOA",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          366.75,
+          611.25
+        ],
+        [
+          507.75,
+          611.25
+        ],
+        [
+          507.75,
+          621.0703125
+        ],
+        [
+          366.75,
+          621.0703125
+        ]
+      ]
+    },
+    {
+      "title": "VI. PRIVACY THREATS IN IOA",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          106.8310546875,
+          56.25
+        ],
+        [
+          240.0,
+          56.25
+        ],
+        [
+          240.0,
+          66.322265625
+        ],
+        [
+          106.8310546875,
+          66.322265625
+        ]
+      ]
+    },
+    {
+      "title": "VII. SUMMARY AND LESSONS LEARNED",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          348.75,
+          574.5
+        ],
+        [
+          525.75,
+          574.5
+        ],
+        [
+          525.75,
+          584.33203125
+        ],
+        [
+          348.75,
+          584.33203125
+        ]
+      ]
+    },
+    {
+      "title": "VIII. FUTURE RESEARCH DIRECTIONS",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          89.25,
+          56.25
+        ],
+        [
+          258.75,
+          56.25
+        ],
+        [
+          258.75,
+          66.37060546875
+        ],
+        [
+          89.25,
+          66.37060546875
+        ]
+      ]
+    },
+    {
+      "title": "A. Cloud\u2013Edge Cooperative Large-Scale Agent Networking",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          46.5,
+          114.0
+        ],
+        [
+          294.0,
+          114.0
+        ],
+        [
+          294.0,
+          123.75
+        ],
+        [
+          46.5,
+          123.75
+        ]
+      ]
+    },
+    {
+      "title": "B. Security-by-Design IoA",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          47.924560546875,
+          266.25
+        ],
+        [
+          157.5,
+          266.25
+        ],
+        [
+          157.5,
+          276.1171875
+        ],
+        [
+          47.924560546875,
+          276.1171875
+        ]
+      ]
+    },
+    {
+      "title": "C. Trustworthy Regulation in IoA",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          47.88720703125,
+          417.75
+        ],
+        [
+          187.6640625,
+          417.75
+        ],
+        [
+          187.6640625,
+          427.7109375
+        ],
+        [
+          47.88720703125,
+          427.7109375
+        ]
+      ]
+    },
+    {
+      "title": "D. Privacy-Aware Agent Architectures",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          47.25,
+          570.75
+        ],
+        [
+          207.0,
+          570.75
+        ],
+        [
+          207.0,
+          579.75
+        ],
+        [
+          47.25,
+          579.75
+        ]
+      ]
+    },
+    {
+      "title": "E. Ethical Frameworks for Autonomous Agents",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          47.88720703125,
+          675.75
+        ],
+        [
+          243.75,
+          675.75
+        ],
+        [
+          243.75,
+          685.265625
+        ],
+        [
+          47.88720703125,
+          685.265625
+        ]
+      ]
+    },
+    {
+      "title": "IX. CONCLUSIONS",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          394.751953125,
+          104.25
+        ],
+        [
+          479.25,
+          104.25
+        ],
+        [
+          479.25,
+          114.08203125
+        ],
+        [
+          394.751953125,
+          114.08203125
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          408.19921875,
+          311.25
+        ],
+        [
+          465.75,
+          311.25
+        ],
+        [
+          465.75,
+          320.203125
+        ],
+        [
+          408.19921875,
+          320.203125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          101
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          86
+        ],
+        [
+          "TableCell",
+          84
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          142
+        ],
+        [
+          "Span",
+          85
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          113
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          115
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          143
+        ],
+        [
+          "Span",
+          87
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          121
+        ],
+        [
+          "Span",
+          98
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          120
+        ],
+        [
+          "Span",
+          97
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          93
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          123
+        ],
+        [
+          "Span",
+          123
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          156
+        ],
+        [
+          "Span",
+          156
+        ],
+        [
+          "ListItem",
+          45
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2505.08807"
+}
