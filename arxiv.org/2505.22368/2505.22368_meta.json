@@ -1,0 +1,730 @@
+{
+  "table_of_contents": [
+    {
+      "title": "AgentDNS: A Root Domain Naming System for LLM Agents",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          117.75,
+          98.25
+        ],
+        [
+          492.75,
+          98.25
+        ],
+        [
+          492.75,
+          110.6015625
+        ],
+        [
+          117.75,
+          110.6015625
+        ]
+      ]
+    },
+    {
+      "title": "Enfang Cui<sup>1</sup>, Yujun Cheng<sup>2</sup>, Rui She<sup>1</sup>, Dan Liu<sup>1</sup>, Zhiyuan Liang<sup>1</sup>, Minxin Guo<sup>1</sup>, Tianzheng Li<sup>1</sup>,\nQian Wei<sup>1</sup>, Wenjuan Xing<sup>1</sup>, Zhijie Zhong<sup>3,4</sup>",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          63.75,
+          120.0
+        ],
+        [
+          551.25,
+          120.0
+        ],
+        [
+          551.25,
+          146.373046875
+        ],
+        [
+          63.75,
+          146.373046875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          153.0,
+          222.0
+        ],
+        [
+          192.8935546875,
+          222.0
+        ],
+        [
+          192.8935546875,
+          230.25
+        ],
+        [
+          153.0,
+          230.25
+        ]
+      ]
+    },
+    {
+      "title": "Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          139.5,
+          465.75
+        ],
+        [
+          206.25,
+          465.75
+        ],
+        [
+          206.25,
+          475.6640625
+        ],
+        [
+          139.5,
+          475.6640625
+        ]
+      ]
+    },
+    {
+      "title": "Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          401.25,
+          378.0
+        ],
+        [
+          474.75,
+          378.0
+        ],
+        [
+          474.75,
+          388.65234375
+        ],
+        [
+          401.25,
+          388.65234375
+        ]
+      ]
+    },
+    {
+      "title": "LLM Agents",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          317.654296875,
+          393.75
+        ],
+        [
+          380.25,
+          393.75
+        ],
+        [
+          380.25,
+          404.89453125
+        ],
+        [
+          317.654296875,
+          404.89453125
+        ]
+      ]
+    },
+    {
+      "title": "Agent Interaction Protocols",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          318.0,
+          636.0
+        ],
+        [
+          449.25,
+          636.0
+        ],
+        [
+          449.25,
+          646.59375
+        ],
+        [
+          318.0,
+          646.59375
+        ]
+      ]
+    },
+    {
+      "title": "Domain Naming System",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          52.5,
+          556.48828125
+        ],
+        [
+          167.25,
+          556.48828125
+        ],
+        [
+          167.25,
+          568.08984375
+        ],
+        [
+          52.5,
+          568.08984375
+        ]
+      ]
+    },
+    {
+      "title": "AgentDNS Method",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          387.87890625,
+          120.849609375
+        ],
+        [
+          489.48046875,
+          120.849609375
+        ],
+        [
+          489.48046875,
+          133.8046875
+        ],
+        [
+          387.87890625,
+          133.8046875
+        ]
+      ]
+    },
+    {
+      "title": "AgentDNS System Overview",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          318.75,
+          135.544921875
+        ],
+        [
+          454.81640625,
+          135.544921875
+        ],
+        [
+          454.81640625,
+          146.953125
+        ],
+        [
+          318.75,
+          146.953125
+        ]
+      ]
+    },
+    {
+      "title": "Service Naming",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          318.0,
+          414.75
+        ],
+        [
+          394.5,
+          414.75
+        ],
+        [
+          394.5,
+          425.77734375
+        ],
+        [
+          318.0,
+          425.77734375
+        ]
+      ]
+    },
+    {
+      "title": "Service Discovery",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          318.0,
+          646.98046875
+        ],
+        [
+          402.75,
+          646.98046875
+        ],
+        [
+          402.75,
+          657.80859375
+        ],
+        [
+          318.0,
+          657.80859375
+        ]
+      ]
+    },
+    {
+      "title": "Service Resolution",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          52.5,
+          559.58203125
+        ],
+        [
+          141.0,
+          559.58203125
+        ],
+        [
+          141.0,
+          569.63671875
+        ],
+        [
+          52.5,
+          569.63671875
+        ]
+      ]
+    },
+    {
+      "title": "Unified Authentication and Billing",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          318.0,
+          363.75
+        ],
+        [
+          480.75,
+          363.75
+        ],
+        [
+          480.75,
+          374.923828125
+        ],
+        [
+          318.0,
+          374.923828125
+        ]
+      ]
+    },
+    {
+      "title": "AgentDNS Case Study",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          379.51171875,
+          611.25
+        ],
+        [
+          497.25,
+          611.25
+        ],
+        [
+          497.25,
+          622.23046875
+        ],
+        [
+          379.51171875,
+          622.23046875
+        ]
+      ]
+    },
+    {
+      "title": "Future opportunities",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          119.25,
+          559.1953125
+        ],
+        [
+          228.4541015625,
+          559.1953125
+        ],
+        [
+          228.4541015625,
+          570.0234375
+        ],
+        [
+          119.25,
+          570.0234375
+        ]
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          408.75,
+          306.75
+        ],
+        [
+          468.75,
+          306.75
+        ],
+        [
+          468.75,
+          318.462890625
+        ],
+        [
+          408.75,
+          318.462890625
+        ]
+      ]
+    },
+    {
+      "title": "Acknowledgments",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          389.970703125,
+          541.5
+        ],
+        [
+          487.5,
+          541.5
+        ],
+        [
+          487.5,
+          551.84765625
+        ],
+        [
+          389.970703125,
+          551.84765625
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          409.5,
+          589.5
+        ],
+        [
+          467.96484375,
+          589.5
+        ],
+        [
+          467.96484375,
+          599.80078125
+        ],
+        [
+          409.5,
+          599.80078125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          104
+        ],
+        [
+          "Span",
+          80
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          113
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          126
+        ],
+        [
+          "Span",
+          98
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          129
+        ],
+        [
+          "Span",
+          73
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "FigureGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          112
+        ],
+        [
+          "Span",
+          63
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          113
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "Text",
+          31
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2505.22368"
+}
