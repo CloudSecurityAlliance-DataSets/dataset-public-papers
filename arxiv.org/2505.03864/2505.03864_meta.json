@@ -1,0 +1,1201 @@
+{
+  "table_of_contents": [
+    {
+      "title": "From Glue-Code to Protocols: A Critical Analysis\nof A2A and MCP Integration for Scalable Agent\nSystems",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          73.669921875
+        ],
+        [
+          542.25,
+          73.669921875
+        ],
+        [
+          542.25,
+          155.84765625
+        ],
+        [
+          69.75,
+          155.84765625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          276.1171875
+        ],
+        [
+          141.75,
+          276.1171875
+        ],
+        [
+          141.75,
+          297.38671875
+        ],
+        [
+          69.75,
+          297.38671875
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction and Motivation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.25,
+          585.87890625
+        ],
+        [
+          291.75,
+          585.87890625
+        ],
+        [
+          291.75,
+          603.66796875
+        ],
+        [
+          71.25,
+          603.66796875
+        ]
+      ]
+    },
+    {
+      "title": "2. Background: Protocol Components",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.75,
+          349.400390625
+        ],
+        [
+          337.078125,
+          349.400390625
+        ],
+        [
+          337.078125,
+          368.349609375
+        ],
+        [
+          69.75,
+          368.349609375
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Google's A2A Protocol: Enabling Agent Collaboration",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.75,
+          435.4453125
+        ],
+        [
+          423.0,
+          435.4453125
+        ],
+        [
+          423.0,
+          452.4609375
+        ],
+        [
+          69.75,
+          452.4609375
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Anthropic's MCP: Standardizing Agent Context and Tool Use",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.5,
+          452.07421875
+        ],
+        [
+          468.5625,
+          452.07421875
+        ],
+        [
+          468.5625,
+          467.54296875
+        ],
+        [
+          70.5,
+          467.54296875
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Complementarity of A2A and MCP",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.75,
+          72.55810546875
+        ],
+        [
+          306.0,
+          72.55810546875
+        ],
+        [
+          306.0,
+          88.12353515625
+        ],
+        [
+          69.75,
+          88.12353515625
+        ]
+      ]
+    },
+    {
+      "title": "3. Taxonomy of Benefits from Integrating A2A and MCP: A Critical\nEvaluation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.75,
+          71.736328125
+        ],
+        [
+          542.970703125,
+          71.736328125
+        ],
+        [
+          542.970703125,
+          112.53515625
+        ],
+        [
+          69.75,
+          112.53515625
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Interoperability and Standardization",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.25,
+          164.6455078125
+        ],
+        [
+          325.5,
+          164.6455078125
+        ],
+        [
+          325.5,
+          181.2744140625
+        ],
+        [
+          71.25,
+          181.2744140625
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Enhanced Capabilities via Synergy",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          69.75,
+          464.0625
+        ],
+        [
+          309.0,
+          464.0625
+        ],
+        [
+          309.0,
+          481.078125
+        ],
+        [
+          69.75,
+          481.078125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Efficiency, Scalability, and Robustness",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          70.5,
+          71.68798828125
+        ],
+        [
+          332.25,
+          71.68798828125
+        ],
+        [
+          332.25,
+          88.41357421875
+        ],
+        [
+          70.5,
+          88.41357421875
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Ecosystem and Innovation Benefits",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.25,
+          371.443359375
+        ],
+        [
+          314.666015625,
+          371.443359375
+        ],
+        [
+          314.666015625,
+          387.685546875
+        ],
+        [
+          71.25,
+          387.685546875
+        ]
+      ]
+    },
+    {
+      "title": "3.5 Quality, Safety, and Alignment Improvements",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.75,
+          592.453125
+        ],
+        [
+          377.25,
+          592.453125
+        ],
+        [
+          377.25,
+          608.6953125
+        ],
+        [
+          69.75,
+          608.6953125
+        ]
+      ]
+    },
+    {
+      "title": "4. Architectural Patterns: Integration Points and Difficulties",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.75,
+          114.662109375
+        ],
+        [
+          497.84765625,
+          114.662109375
+        ],
+        [
+          497.84765625,
+          132.837890625
+        ],
+        [
+          69.75,
+          132.837890625
+        ]
+      ]
+    },
+    {
+      "title": "5. Economic Implications: The \"Agent Economy\"",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.75,
+          558.80859375
+        ],
+        [
+          414.0,
+          558.80859375
+        ],
+        [
+          414.0,
+          576.59765625
+        ],
+        [
+          69.75,
+          576.59765625
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Emergence of \"Agent Economy\"",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          69.75,
+          644.2734375
+        ],
+        [
+          291.0,
+          644.2734375
+        ],
+        [
+          291.0,
+          660.515625
+        ],
+        [
+          69.75,
+          660.515625
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Lower Barriers and Competitive Landscape",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.5,
+          172.5732421875
+        ],
+        [
+          365.16796875,
+          172.5732421875
+        ],
+        [
+          365.16796875,
+          189.5888671875
+        ],
+        [
+          70.5,
+          189.5888671875
+        ]
+      ]
+    },
+    {
+      "title": "5.3 New Roles and Business Models",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.5,
+          346.306640625
+        ],
+        [
+          294.345703125,
+          346.306640625
+        ],
+        [
+          294.345703125,
+          362.548828125
+        ],
+        [
+          70.5,
+          362.548828125
+        ]
+      ]
+    },
+    {
+      "title": "5.4 Productivity and Cost Impacts",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          71.25,
+          440.47265625
+        ],
+        [
+          283.2890625,
+          440.47265625
+        ],
+        [
+          283.2890625,
+          456.71484375
+        ],
+        [
+          71.25,
+          456.71484375
+        ]
+      ]
+    },
+    {
+      "title": "5.5 Strategic Control and Data Value",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.75,
+          629.19140625
+        ],
+        [
+          297.333984375,
+          629.19140625
+        ],
+        [
+          297.333984375,
+          645.43359375
+        ],
+        [
+          69.75,
+          645.43359375
+        ]
+      ]
+    },
+    {
+      "title": "6. Risks and Challenges at the A2A-MCP Intersection",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          70.5,
+          167.8359375
+        ],
+        [
+          444.0,
+          167.8359375
+        ],
+        [
+          444.0,
+          184.8515625
+        ],
+        [
+          70.5,
+          184.8515625
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Key Risks and Challenges",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          69.75,
+          238.412109375
+        ],
+        [
+          252.2109375,
+          238.412109375
+        ],
+        [
+          252.2109375,
+          254.267578125
+        ],
+        [
+          69.75,
+          254.267578125
+        ]
+      ]
+    },
+    {
+      "title": "6.2 Future Directions",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          70.5,
+          172.9599609375
+        ],
+        [
+          204.75,
+          172.9599609375
+        ],
+        [
+          204.75,
+          189.2021484375
+        ],
+        [
+          70.5,
+          189.2021484375
+        ]
+      ]
+    },
+    {
+      "title": "6.3 Outlook",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          70.5,
+          525.55078125
+        ],
+        [
+          146.64990234375,
+          525.55078125
+        ],
+        [
+          146.64990234375,
+          542.56640625
+        ],
+        [
+          70.5,
+          542.56640625
+        ]
+      ]
+    },
+    {
+      "title": "7. Conclusion",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.25,
+          669.41015625
+        ],
+        [
+          168.75,
+          669.41015625
+        ],
+        [
+          168.75,
+          688.74609375
+        ],
+        [
+          71.25,
+          688.74609375
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          70.5,
+          454.5
+        ],
+        [
+          147.0,
+          454.5
+        ],
+        [
+          147.0,
+          469.4765625
+        ],
+        [
+          70.5,
+          469.4765625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          36
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          50
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          47
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          64
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          48
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          45
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          41
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          50
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          42
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          40
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          50
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          35
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          41
+        ],
+        [
+          "Span",
+          41
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          24
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2505.03864"
+}
