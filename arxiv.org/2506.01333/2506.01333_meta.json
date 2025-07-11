@@ -1,0 +1,942 @@
+{
+  "table_of_contents": [
+    {
+      "title": "ETDI: Mitigating Tool Squatting and Rug Pull\nAttacks in Model Context Protocol (MCP) by using\nOAuth-Enhanced Tool Definitions and Policy-Based\nAccess Control",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          47.6630859375,
+          54.0
+        ],
+        [
+          563.25,
+          54.0
+        ],
+        [
+          563.25,
+          157.39453125
+        ],
+        [
+          47.6630859375,
+          157.39453125
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.5,
+          478.5
+        ],
+        [
+          214.5,
+          478.5
+        ],
+        [
+          214.5,
+          488.8125
+        ],
+        [
+          133.5,
+          488.8125
+        ]
+      ]
+    },
+    {
+      "title": "II. THE MODEL CONTEXT PROTOCOL (MCP)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          337.376953125,
+          640.5
+        ],
+        [
+          536.25,
+          640.5
+        ],
+        [
+          536.25,
+          650.4609375
+        ],
+        [
+          337.376953125,
+          650.4609375
+        ]
+      ]
+    },
+    {
+      "title": "A. Architecture Overview",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.25,
+          51.0
+        ],
+        [
+          153.0,
+          51.0
+        ],
+        [
+          153.0,
+          61.3916015625
+        ],
+        [
+          47.25,
+          61.3916015625
+        ]
+      ]
+    },
+    {
+      "title": "B. Standard Operational Flow",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.25,
+          413.25
+        ],
+        [
+          175.5,
+          413.25
+        ],
+        [
+          175.5,
+          423.45703125
+        ],
+        [
+          47.25,
+          423.45703125
+        ]
+      ]
+    },
+    {
+      "title": "III. CRITICAL SECURITY VULNERABILITIES IN MCP",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          60.0,
+          393.75
+        ],
+        [
+          288.0,
+          393.75
+        ],
+        [
+          288.0,
+          403.734375
+        ],
+        [
+          60.0,
+          403.734375
+        ]
+      ]
+    },
+    {
+      "title": "A. Attack Vector 1: Tool Poisoning",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.5,
+          447.75
+        ],
+        [
+          193.04296875,
+          447.75
+        ],
+        [
+          193.04296875,
+          457.875
+        ],
+        [
+          46.5,
+          457.875
+        ]
+      ]
+    },
+    {
+      "title": "B. Attack Vector 2: Rug Pull Attacks",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.5,
+          620.25
+        ],
+        [
+          464.9765625,
+          620.25
+        ],
+        [
+          464.9765625,
+          629.578125
+        ],
+        [
+          310.5,
+          629.578125
+        ]
+      ]
+    },
+    {
+      "title": "IV. ETDI: THE ENHANCED TOOL DEFINITION INTERFACE",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          48.18603515625,
+          586.5
+        ],
+        [
+          299.25,
+          586.5
+        ],
+        [
+          299.25,
+          596.70703125
+        ],
+        [
+          48.18603515625,
+          596.70703125
+        ]
+      ]
+    },
+    {
+      "title": "A. Foundational Security Principles of ETDI",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          47.25,
+          643.5
+        ],
+        [
+          234.75,
+          643.5
+        ],
+        [
+          234.75,
+          653.94140625
+        ],
+        [
+          47.25,
+          653.94140625
+        ]
+      ]
+    },
+    {
+      "title": "B. ETDI Countermeasures",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          48.0,
+          498.8671875
+        ],
+        [
+          159.0,
+          498.8671875
+        ],
+        [
+          159.0,
+          508.921875
+        ],
+        [
+          48.0,
+          508.921875
+        ]
+      ]
+    },
+    {
+      "title": "C. Advancing Security with OAuth-Enhanced ETDI",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          48.0,
+          427.5
+        ],
+        [
+          261.0,
+          427.5
+        ],
+        [
+          261.0,
+          437.37890625
+        ],
+        [
+          48.0,
+          437.37890625
+        ]
+      ]
+    },
+    {
+      "title": "D. EExample Workflow with Amaicy-Based Access Control",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          310.18359375,
+          390.75
+        ],
+        [
+          555.22265625,
+          390.75
+        ],
+        [
+          555.22265625,
+          400.640625
+        ],
+        [
+          310.18359375,
+          400.640625
+        ]
+      ]
+    },
+    {
+      "title": "V. SECURITY ANALYSIS",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          121.5,
+          621.0
+        ],
+        [
+          228.7529296875,
+          621.0
+        ],
+        [
+          228.7529296875,
+          632.671875
+        ],
+        [
+          121.5,
+          632.671875
+        ]
+      ]
+    },
+    {
+      "title": "\u2022 Defense against Post-Approval Modification (Rug\nPulls):",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          321.0,
+          538.5
+        ],
+        [
+          564.1875,
+          538.5
+        ],
+        [
+          564.1875,
+          560.7421875
+        ],
+        [
+          321.0,
+          560.7421875
+        ]
+      ]
+    },
+    {
+      "title": "VI. DISCUSSION",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          137.759765625,
+          573.0
+        ],
+        [
+          211.5,
+          573.0
+        ],
+        [
+          211.5,
+          583.55859375
+        ],
+        [
+          137.759765625,
+          583.55859375
+        ]
+      ]
+    },
+    {
+      "title": "VII. LITERATURE REVIEW",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          378.75,
+          562.5
+        ],
+        [
+          496.0546875,
+          562.2890625
+        ],
+        [
+          496.0546875,
+          570.796875
+        ],
+        [
+          378.75,
+          572.34375
+        ]
+      ]
+    },
+    {
+      "title": "VIII. CONCLUSION",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          394.5,
+          130.5
+        ],
+        [
+          481.7109375,
+          130.5
+        ],
+        [
+          481.7109375,
+          141.15234375
+        ],
+        [
+          394.5,
+          141.15234375
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          408.0,
+          333.73828125
+        ],
+        [
+          467.3671875,
+          333.73828125
+        ],
+        [
+          467.3671875,
+          343.79296875
+        ],
+        [
+          408.0,
+          343.79296875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          93
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          89
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          86
+        ],
+        [
+          "Span",
+          78
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          101
+        ],
+        [
+          "Span",
+          92
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          54
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          77
+        ],
+        [
+          "Span",
+          63
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          136
+        ],
+        [
+          "Line",
+          127
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          98
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          89
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          109
+        ],
+        [
+          "Span",
+          109
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2506.01333"
+}
