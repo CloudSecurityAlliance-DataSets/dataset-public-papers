@@ -1,0 +1,2108 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Building A Secure Agentic AI Application\nLeveraging Google's A2A Protocol",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          92.935546875,
+          53.75390625
+        ],
+        [
+          517.5,
+          53.75390625
+        ],
+        [
+          517.5,
+          103.833984375
+        ],
+        [
+          92.935546875,
+          103.833984375
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.5,
+          555.75
+        ],
+        [
+          214.5,
+          555.75
+        ],
+        [
+          214.5,
+          565.3828125
+        ],
+        [
+          133.5,
+          565.3828125
+        ]
+      ]
+    },
+    {
+      "title": "B. Google A2A: A Foundational Protocol and its Context",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          48.0,
+          142.5
+        ],
+        [
+          286.5,
+          142.5
+        ],
+        [
+          286.5,
+          152.4638671875
+        ],
+        [
+          48.0,
+          152.4638671875
+        ]
+      ]
+    },
+    {
+      "title": "C. Paper Objectives: Analyzing A2A, Proposing Enhancements,\nand Guiding Secure Implementation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.88720703125,
+          381.0
+        ],
+        [
+          301.5,
+          381.0
+        ],
+        [
+          301.5,
+          402.9609375
+        ],
+        [
+          47.88720703125,
+          402.9609375
+        ]
+      ]
+    },
+    {
+      "title": "II. LITERATURE REVIEW",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          119.25,
+          643.5
+        ],
+        [
+          228.75,
+          643.5
+        ],
+        [
+          228.75,
+          653.5546875
+        ],
+        [
+          119.25,
+          653.5546875
+        ]
+      ]
+    },
+    {
+      "title": "A. Agent to Agent Communication Literature Review",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.5,
+          660.0
+        ],
+        [
+          267.8994140625,
+          660.0
+        ],
+        [
+          267.8994140625,
+          670.18359375
+        ],
+        [
+          46.5,
+          670.18359375
+        ]
+      ]
+    },
+    {
+      "title": "B. Traditional PKI and Transport Security",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          310.482421875,
+          657.75
+        ],
+        [
+          488.25,
+          657.75
+        ],
+        [
+          488.25,
+          667.08984375
+        ],
+        [
+          310.482421875,
+          667.08984375
+        ]
+      ]
+    },
+    {
+      "title": "C. SOAP, WS-Security, and Enterprise Service Buses",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          47.9619140625,
+          152.25
+        ],
+        [
+          267.75,
+          152.25
+        ],
+        [
+          267.75,
+          163.001953125
+        ],
+        [
+          47.9619140625,
+          163.001953125
+        ]
+      ]
+    },
+    {
+      "title": "D. OAuth 2.0, JSON Web Tokens (JWT), and Service Accounts",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          47.9619140625,
+          317.109375
+        ],
+        [
+          300.4716796875,
+          317.109375
+        ],
+        [
+          300.4716796875,
+          327.55078125
+        ],
+        [
+          47.9619140625,
+          327.55078125
+        ]
+      ]
+    },
+    {
+      "title": "E. Zero-Trust Architectures and BeyondCorp",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.0,
+          469.5
+        ],
+        [
+          234.0,
+          469.5
+        ],
+        [
+          234.0,
+          479.91796875
+        ],
+        [
+          48.0,
+          479.91796875
+        ]
+      ]
+    },
+    {
+      "title": "F. Limitations of Historical Approaches",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.0,
+          609.75
+        ],
+        [
+          213.0,
+          609.75
+        ],
+        [
+          213.0,
+          620.296875
+        ],
+        [
+          48.0,
+          620.296875
+        ]
+      ]
+    },
+    {
+      "title": "III. UNDERSTANDING GOOGLE'S A2A PROTOCOL",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          329.25,
+          187.5
+        ],
+        [
+          546.75,
+          187.5
+        ],
+        [
+          546.75,
+          198.580078125
+        ],
+        [
+          329.25,
+          198.580078125
+        ]
+      ]
+    },
+    {
+      "title": "A. Protocol Overview",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          309.75,
+          204.0
+        ],
+        [
+          402.0,
+          204.0
+        ],
+        [
+          402.0,
+          214.62890625
+        ],
+        [
+          309.75,
+          214.62890625
+        ]
+      ]
+    },
+    {
+      "title": "B. Communication Flow",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          309.287109375,
+          428.25
+        ],
+        [
+          414.0,
+          428.25
+        ],
+        [
+          414.0,
+          438.5390625
+        ],
+        [
+          309.287109375,
+          438.5390625
+        ]
+      ]
+    },
+    {
+      "title": "3) Processing & Interaction:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          317.25,
+          636.75
+        ],
+        [
+          444.75,
+          636.75
+        ],
+        [
+          444.75,
+          647.75390625
+        ],
+        [
+          317.25,
+          647.75390625
+        ]
+      ]
+    },
+    {
+      "title": "C. Discoverability Mechanism",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          48.0,
+          213.75
+        ],
+        [
+          174.0,
+          213.75
+        ],
+        [
+          174.0,
+          224.103515625
+        ],
+        [
+          48.0,
+          224.103515625
+        ]
+      ]
+    },
+    {
+      "title": "D. Core Concepts",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          47.25,
+          525.55078125
+        ],
+        [
+          124.3125,
+          525.55078125
+        ],
+        [
+          124.3125,
+          535.60546875
+        ],
+        [
+          47.25,
+          535.60546875
+        ]
+      ]
+    },
+    {
+      "title": "IV. THREAT MODELING GOOGLE A2A BASED AGENTIC AI\nAPPS WITH MAESTRO",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          310.5,
+          381.75
+        ],
+        [
+          563.58984375,
+          381.75
+        ],
+        [
+          563.58984375,
+          403.5
+        ],
+        [
+          310.5,
+          403.34765625
+        ]
+      ]
+    },
+    {
+      "title": "A. Recap of MAESTRO Threat Modeling Methodology",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          309.0,
+          489.0
+        ],
+        [
+          537.0,
+          489.0
+        ],
+        [
+          537.0,
+          499.25390625
+        ],
+        [
+          309.0,
+          499.25390625
+        ]
+      ]
+    },
+    {
+      "title": "B. Common A2A Multi-Agent System Threats",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          48.0,
+          549.0
+        ],
+        [
+          236.25,
+          549.0
+        ],
+        [
+          236.25,
+          558.421875
+        ],
+        [
+          48.0,
+          558.421875
+        ]
+      ]
+    },
+    {
+      "title": "1) Agent Card Spoofing: MAESTRO Layers: 3 (Agent\nFrameworks), 4 (Deployment & Infrastructure)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          47.9619140625,
+          600.0
+        ],
+        [
+          301.5,
+          600.0
+        ],
+        [
+          301.5,
+          621.84375
+        ],
+        [
+          47.9619140625,
+          621.84375
+        ]
+      ]
+    },
+    {
+      "title": "C. Additional Security Considerations",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          48.0,
+          233.25
+        ],
+        [
+          206.25,
+          233.25
+        ],
+        [
+          206.25,
+          243.439453125
+        ],
+        [
+          48.0,
+          243.439453125
+        ]
+      ]
+    },
+    {
+      "title": "V. CASE STUDY",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          137.53564453125,
+          429.0
+        ],
+        [
+          210.0,
+          429.0
+        ],
+        [
+          210.0,
+          440.47265625
+        ],
+        [
+          137.53564453125,
+          440.47265625
+        ]
+      ]
+    },
+    {
+      "title": "A. Case Study 1: Collaborative Document Processing",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.5,
+          484.5
+        ],
+        [
+          271.5,
+          484.5
+        ],
+        [
+          271.5,
+          495.0
+        ],
+        [
+          46.5,
+          495.0
+        ]
+      ]
+    },
+    {
+      "title": "B. Case Study 2: Distributed Data Analysis",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          310.18359375,
+          498.0
+        ],
+        [
+          493.5,
+          498.0
+        ],
+        [
+          493.5,
+          508.921875
+        ],
+        [
+          310.18359375,
+          508.921875
+        ]
+      ]
+    },
+    {
+      "title": "C. Threat Evolution",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          48.0,
+          302.80078125
+        ],
+        [
+          132.0,
+          302.80078125
+        ],
+        [
+          132.0,
+          313.2421875
+        ],
+        [
+          48.0,
+          313.2421875
+        ]
+      ]
+    },
+    {
+      "title": "VI. MITIGATING SECURITY THREATS IN A2A-BASED\nMULTI-AGENT SYSTEMS",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          58.5,
+          389.25
+        ],
+        [
+          291.5068359375,
+          389.25
+        ],
+        [
+          291.5068359375,
+          411.08203125
+        ],
+        [
+          58.5,
+          411.08203125
+        ]
+      ]
+    },
+    {
+      "title": "A. Addressing Specific Threats and Enhancing Security",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          46.5,
+          511.2421875
+        ],
+        [
+          277.013671875,
+          511.2421875
+        ],
+        [
+          277.013671875,
+          522.0703125
+        ],
+        [
+          46.5,
+          522.0703125
+        ]
+      ]
+    },
+    {
+      "title": "Mitigation Strategies:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          318.251953125,
+          204.9609375
+        ],
+        [
+          417.0,
+          204.9609375
+        ],
+        [
+          417.0,
+          215.40234375
+        ],
+        [
+          318.251953125,
+          215.40234375
+        ]
+      ]
+    },
+    {
+      "title": "Mitigation Strategies:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          318.251953125,
+          289.845703125
+        ],
+        [
+          417.0,
+          289.845703125
+        ],
+        [
+          417.0,
+          300.287109375
+        ],
+        [
+          318.251953125,
+          300.287109375
+        ]
+      ]
+    },
+    {
+      "title": "Mitigation Strategies:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          321.0,
+          373.376953125
+        ],
+        [
+          418.658203125,
+          373.376953125
+        ],
+        [
+          418.658203125,
+          383.431640625
+        ],
+        [
+          321.0,
+          383.431640625
+        ]
+      ]
+    },
+    {
+      "title": "Mitigation Strategies:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          317.654296875,
+          648.0
+        ],
+        [
+          416.25,
+          648.0
+        ],
+        [
+          416.25,
+          658.58203125
+        ],
+        [
+          317.654296875,
+          658.58203125
+        ]
+      ]
+    },
+    {
+      "title": "\u2022 Follow secure development practices.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          47.9619140625,
+          51.0
+        ],
+        [
+          219.0,
+          51.0
+        ],
+        [
+          219.0,
+          61.82666015625
+        ],
+        [
+          47.9619140625,
+          61.82666015625
+        ]
+      ]
+    },
+    {
+      "title": "Mitigation Strategies:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          57.337646484375,
+          88.12353515625
+        ],
+        [
+          153.75,
+          88.12353515625
+        ],
+        [
+          153.75,
+          98.46826171875
+        ],
+        [
+          57.337646484375,
+          98.46826171875
+        ]
+      ]
+    },
+    {
+      "title": "Mitigation Strategies:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          57.75,
+          185.9150390625
+        ],
+        [
+          153.75,
+          185.9150390625
+        ],
+        [
+          153.75,
+          197.1298828125
+        ],
+        [
+          57.75,
+          197.1298828125
+        ]
+      ]
+    },
+    {
+      "title": "B. Additional Security Considerations",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          47.25,
+          272.25
+        ],
+        [
+          205.5,
+          272.25
+        ],
+        [
+          205.5,
+          283.46484375
+        ],
+        [
+          47.25,
+          283.46484375
+        ]
+      ]
+    },
+    {
+      "title": "Addressing Section-IV-C",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          57.75,
+          290.232421875
+        ],
+        [
+          162.5625,
+          290.232421875
+        ],
+        [
+          162.5625,
+          301.447265625
+        ],
+        [
+          57.75,
+          301.447265625
+        ]
+      ]
+    },
+    {
+      "title": "C. Applying Mitigations to Case Studies (Sections V-A and\nV-B)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          47.25,
+          389.25
+        ],
+        [
+          301.5,
+          389.25
+        ],
+        [
+          301.5,
+          411.85546875
+        ],
+        [
+          47.25,
+          411.85546875
+        ]
+      ]
+    },
+    {
+      "title": "1) Case Study 1: Collaborative Document Processing:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          58.5,
+          418.4296875
+        ],
+        [
+          283.5,
+          418.4296875
+        ],
+        [
+          283.5,
+          430.03125
+        ],
+        [
+          58.5,
+          430.03125
+        ]
+      ]
+    },
+    {
+      "title": "VII. SECURE APPLICATION DEVELOPMENT STRATEGIES",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          52.5,
+          578.91796875
+        ],
+        [
+          296.25,
+          578.91796875
+        ],
+        [
+          296.25,
+          589.74609375
+        ],
+        [
+          52.5,
+          589.74609375
+        ]
+      ]
+    },
+    {
+      "title": "A. Securely Implementing with Current A2A Features",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          46.5,
+          599.02734375
+        ],
+        [
+          269.25,
+          599.02734375
+        ],
+        [
+          269.25,
+          609.85546875
+        ],
+        [
+          46.5,
+          609.85546875
+        ]
+      ]
+    },
+    {
+      "title": "B. Leveraging Enhanced A2A Features for Advanced Security",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          48.0,
+          665.54296875
+        ],
+        [
+          301.517578125,
+          665.54296875
+        ],
+        [
+          301.517578125,
+          676.37109375
+        ],
+        [
+          48.0,
+          676.37109375
+        ]
+      ]
+    },
+    {
+      "title": "VIII. KEY CONTROL MEASURES FOR SAFE A2A\nDEPLOYMENT",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          331.5,
+          50.41845703125
+        ],
+        [
+          544.166015625,
+          50.41845703125
+        ],
+        [
+          544.166015625,
+          73.23486328125
+        ],
+        [
+          331.5,
+          73.23486328125
+        ]
+      ]
+    },
+    {
+      "title": "IX. IMPLEMENTING A2A SERVER SECURELY",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          337.078125,
+          225.84375
+        ],
+        [
+          535.5,
+          225.84375
+        ],
+        [
+          535.5,
+          236.671875
+        ],
+        [
+          337.078125,
+          236.671875
+        ]
+      ]
+    },
+    {
+      "title": "A. Securing the AgentCard",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          309.75,
+          295.453125
+        ],
+        [
+          424.5,
+          295.453125
+        ],
+        [
+          424.5,
+          306.28125
+        ],
+        [
+          309.75,
+          306.28125
+        ]
+      ]
+    },
+    {
+      "title": "B. Securing the AgentCard",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          310.5,
+          351.9140625
+        ],
+        [
+          425.25,
+          351.9140625
+        ],
+        [
+          425.25,
+          362.7421875
+        ],
+        [
+          310.5,
+          362.7421875
+        ]
+      ]
+    },
+    {
+      "title": "1) AgentCard Location and Access Controls",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          318.0,
+          404.5078125
+        ],
+        [
+          515.77734375,
+          404.5078125
+        ],
+        [
+          515.77734375,
+          416.109375
+        ],
+        [
+          318.0,
+          416.109375
+        ]
+      ]
+    },
+    {
+      "title": "2) AgentCard Content Security",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          317.25,
+          487.65234375
+        ],
+        [
+          456.75,
+          487.65234375
+        ],
+        [
+          456.75,
+          499.25390625
+        ],
+        [
+          317.25,
+          499.25390625
+        ]
+      ]
+    },
+    {
+      "title": "C. Authentication and Authorization",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          311.25,
+          589.74609375
+        ],
+        [
+          461.25,
+          589.74609375
+        ],
+        [
+          461.25,
+          600.57421875
+        ],
+        [
+          311.25,
+          600.57421875
+        ]
+      ]
+    },
+    {
+      "title": "1) Protecting Sensitive Actions and Data",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          54.75,
+          272.056640625
+        ],
+        [
+          235.9248046875,
+          272.056640625
+        ],
+        [
+          235.9248046875,
+          283.658203125
+        ],
+        [
+          54.75,
+          283.658203125
+        ]
+      ]
+    },
+    {
+      "title": "2) API Keys",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          53.303466796875,
+          439.69921875
+        ],
+        [
+          111.0,
+          439.69921875
+        ],
+        [
+          111.0,
+          452.07421875
+        ],
+        [
+          53.303466796875,
+          452.07421875
+        ]
+      ]
+    },
+    {
+      "title": "3) JWT Authentication",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          54.0,
+          536.37890625
+        ],
+        [
+          161.5166015625,
+          536.37890625
+        ],
+        [
+          161.5166015625,
+          547.98046875
+        ],
+        [
+          54.0,
+          547.98046875
+        ]
+      ]
+    },
+    {
+      "title": "D. Secure Communication",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          46.99072265625,
+          631.125
+        ],
+        [
+          159.57421875,
+          631.125
+        ],
+        [
+          159.57421875,
+          642.7265625
+        ],
+        [
+          46.99072265625,
+          642.7265625
+        ]
+      ]
+    },
+    {
+      "title": "3) Data Protection at Rest",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          317.25,
+          281.724609375
+        ],
+        [
+          436.5,
+          281.724609375
+        ],
+        [
+          436.5,
+          293.326171875
+        ],
+        [
+          317.25,
+          293.326171875
+        ]
+      ]
+    },
+    {
+      "title": "E. Input Validation and Request Processing",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.5,
+          348.046875
+        ],
+        [
+          492.767578125,
+          348.046875
+        ],
+        [
+          492.767578125,
+          359.26171875
+        ],
+        [
+          310.5,
+          359.26171875
+        ]
+      ]
+    },
+    {
+      "title": "1) Message Validation",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          317.056640625,
+          363.515625
+        ],
+        [
+          416.865234375,
+          363.515625
+        ],
+        [
+          416.865234375,
+          375.1171875
+        ],
+        [
+          317.056640625,
+          375.1171875
+        ]
+      ]
+    },
+    {
+      "title": "2) URI Validation",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          317.25,
+          446.66015625
+        ],
+        [
+          399.75,
+          446.66015625
+        ],
+        [
+          399.75,
+          458.26171875
+        ],
+        [
+          317.25,
+          458.26171875
+        ]
+      ]
+    },
+    {
+      "title": "3) Processing File Parts",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          317.25,
+          530.19140625
+        ],
+        [
+          425.232421875,
+          530.19140625
+        ],
+        [
+          425.232421875,
+          541.79296875
+        ],
+        [
+          317.25,
+          541.79296875
+        ]
+      ]
+    },
+    {
+      "title": "F. Server Implementation Best Practices",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.5,
+          607.921875
+        ],
+        [
+          479.3203125,
+          607.921875
+        ],
+        [
+          479.3203125,
+          619.5234375
+        ],
+        [
+          310.5,
+          619.5234375
+        ]
+      ]
+    },
+    {
+      "title": "1) Error Handling and Logging",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          316.16015625,
+          623.77734375
+        ],
+        [
+          460.5,
+          623.77734375
+        ],
+        [
+          460.5,
+          635.37890625
+        ],
+        [
+          316.16015625,
+          635.37890625
+        ]
+      ]
+    },
+    {
+      "title": "2) Rate Limiting and DoS Protection",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          53.7890625,
+          51.0
+        ],
+        [
+          219.75,
+          51.0
+        ],
+        [
+          219.75,
+          61.681640625
+        ],
+        [
+          53.7890625,
+          61.681640625
+        ]
+      ]
+    },
+    {
+      "title": "G. Protocol-Specific Security Considerations",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          48.0,
+          239.25
+        ],
+        [
+          233.25,
+          239.25
+        ],
+        [
+          233.25,
+          249.8203125
+        ],
+        [
+          48.0,
+          249.8203125
+        ]
+      ]
+    },
+    {
+      "title": "1) Streaming and SSE (Server-Sent Events)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          54.75,
+          255.0
+        ],
+        [
+          247.5,
+          255.0
+        ],
+        [
+          247.5,
+          265.67578125
+        ],
+        [
+          54.75,
+          265.67578125
+        ]
+      ]
+    },
+    {
+      "title": "H. Server Hardening",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          47.25,
+          681.0
+        ],
+        [
+          136.5,
+          681.0
+        ],
+        [
+          136.5,
+          691.83984375
+        ],
+        [
+          47.25,
+          691.83984375
+        ]
+      ]
+    },
+    {
+      "title": "X. MCP AND A2A: A SYNERGY",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          360.984375,
+          153.0
+        ],
+        [
+          508.0078125,
+          153.0
+        ],
+        [
+          508.0078125,
+          164.35546875
+        ],
+        [
+          360.984375,
+          164.35546875
+        ]
+      ]
+    },
+    {
+      "title": "XI. CONCLUSION",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          134.25,
+          297.0
+        ],
+        [
+          213.75,
+          297.0
+        ],
+        [
+          213.75,
+          307.0546875
+        ],
+        [
+          134.25,
+          307.0546875
+        ]
+      ]
+    },
+    {
+      "title": "A. Recap of A2A's Role, Security Challenges, and Enhancement\nPotential",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          47.25,
+          312.75
+        ],
+        [
+          300.75,
+          312.75
+        ],
+        [
+          300.75,
+          333.73828125
+        ],
+        [
+          47.25,
+          333.73828125
+        ]
+      ]
+    },
+    {
+      "title": "B. Future Directions for Secure Agent Collaboration",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          48.0,
+          669.0
+        ],
+        [
+          267.75,
+          669.0
+        ],
+        [
+          267.75,
+          679.46484375
+        ],
+        [
+          48.0,
+          679.46484375
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          408.75,
+          276.75
+        ],
+        [
+          465.75,
+          276.75
+        ],
+        [
+          465.75,
+          285.591796875
+        ],
+        [
+          408.75,
+          285.591796875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Footnote",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          107
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          109
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListGroup",
+          6
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          114
+        ],
+        [
+          "Span",
+          114
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          105
+        ],
+        [
+          "Span",
+          99
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          88
+        ],
+        [
+          "Span",
+          86
+        ],
+        [
+          "ListItem",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          108
+        ],
+        [
+          "ListItem",
+          46
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListGroup",
+          11
+        ],
+        [
+          "SectionHeader",
+          7
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "ListItem",
+          43
+        ],
+        [
+          "SectionHeader",
+          17
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListGroup",
+          8
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          91
+        ],
+        [
+          "Span",
+          83
+        ],
+        [
+          "ListItem",
+          32
+        ],
+        [
+          "SectionHeader",
+          11
+        ],
+        [
+          "ListGroup",
+          10
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          109
+        ],
+        [
+          "Span",
+          109
+        ],
+        [
+          "ListItem",
+          28
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          51
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "Line",
+          136
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          20
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2504.16902"
+}
