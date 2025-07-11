@@ -1,0 +1,1174 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Securing Agentic AI: A Comprehensive Threat\nModel and Mitigation Framework for Generative AI\nAgents",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.1689453125,
+          54.0
+        ],
+        [
+          563.25,
+          54.0
+        ],
+        [
+          563.25,
+          130.5
+        ],
+        [
+          46.1689453125,
+          129.357421875
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.5,
+          531.0
+        ],
+        [
+          213.75,
+          531.0
+        ],
+        [
+          213.75,
+          540.6328125
+        ],
+        [
+          133.5,
+          540.6328125
+        ]
+      ]
+    },
+    {
+      "title": "II. BACKGROUND",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          396.24609375,
+          639.75
+        ],
+        [
+          476.33203125,
+          639.75
+        ],
+        [
+          476.33203125,
+          649.6875
+        ],
+        [
+          396.24609375,
+          649.6875
+        ]
+      ]
+    },
+    {
+      "title": "A. Literature Review",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          309.75,
+          656.25
+        ],
+        [
+          398.63671875,
+          656.25
+        ],
+        [
+          398.63671875,
+          666.31640625
+        ],
+        [
+          309.75,
+          666.31640625
+        ]
+      ]
+    },
+    {
+      "title": "B. GenAI Agents Architecture",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.25,
+          396.75
+        ],
+        [
+          171.75,
+          396.75
+        ],
+        [
+          171.75,
+          406.828125
+        ],
+        [
+          47.25,
+          406.828125
+        ]
+      ]
+    },
+    {
+      "title": "C. Current Security Challenges",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          310.482421875,
+          282.69140625
+        ],
+        [
+          442.5,
+          282.69140625
+        ],
+        [
+          442.5,
+          292.359375
+        ],
+        [
+          310.482421875,
+          292.359375
+        ]
+      ]
+    },
+    {
+      "title": "III. METHODOLOGY",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          128.794921875,
+          372.75
+        ],
+        [
+          219.75,
+          372.75
+        ],
+        [
+          219.75,
+          383.23828125
+        ],
+        [
+          128.794921875,
+          383.23828125
+        ]
+      ]
+    },
+    {
+      "title": "A. Systematic Literature Analysis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.5,
+          484.5
+        ],
+        [
+          186.0,
+          484.5
+        ],
+        [
+          186.0,
+          494.61328125
+        ],
+        [
+          46.5,
+          494.61328125
+        ]
+      ]
+    },
+    {
+      "title": "B. Theoretical Threat Modeling Process",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          309.75,
+          290.25
+        ],
+        [
+          477.75,
+          290.25
+        ],
+        [
+          477.75,
+          300.09375
+        ],
+        [
+          309.75,
+          300.09375
+        ]
+      ]
+    },
+    {
+      "title": "C. Expert Consultation and Validation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          48.0,
+          318.75
+        ],
+        [
+          208.5,
+          318.75
+        ],
+        [
+          208.5,
+          328.904296875
+        ],
+        [
+          48.0,
+          328.904296875
+        ]
+      ]
+    },
+    {
+      "title": "D. Case Study Analysis",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          47.25,
+          585.75
+        ],
+        [
+          147.0,
+          585.75
+        ],
+        [
+          147.0,
+          595.546875
+        ],
+        [
+          47.25,
+          595.546875
+        ]
+      ]
+    },
+    {
+      "title": "E. Limitations and Future Work",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          310.482421875,
+          506.25
+        ],
+        [
+          444.357421875,
+          506.25
+        ],
+        [
+          444.357421875,
+          515.8828125
+        ],
+        [
+          310.482421875,
+          515.8828125
+        ]
+      ]
+    },
+    {
+      "title": "IV. THREAT MODEL FOR GENAI AGENTS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          84.0,
+          443.953125
+        ],
+        [
+          265.359375,
+          443.953125
+        ],
+        [
+          265.359375,
+          454.78125
+        ],
+        [
+          84.0,
+          454.78125
+        ]
+      ]
+    },
+    {
+      "title": "A. Advanced Threat Framework for Autonomous AI Agents\n(ATFAA)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          47.25,
+          656.6484375
+        ],
+        [
+          301.81640625,
+          656.6484375
+        ],
+        [
+          301.81640625,
+          679.8515625
+        ],
+        [
+          47.25,
+          679.8515625
+        ]
+      ]
+    },
+    {
+      "title": "T2: Objective Function Corruption & Drift (Tampering)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          57.0,
+          403.34765625
+        ],
+        [
+          301.0693359375,
+          403.34765625
+        ],
+        [
+          301.0693359375,
+          414.94921875
+        ],
+        [
+          57.0,
+          414.94921875
+        ]
+      ]
+    },
+    {
+      "title": "ing/Information Disclosure)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          310.5,
+          50.5634765625
+        ],
+        [
+          432.0,
+          50.5634765625
+        ],
+        [
+          432.0,
+          61.7783203125
+        ],
+        [
+          310.5,
+          61.7783203125
+        ]
+      ]
+    },
+    {
+      "title": "5) Domain 3: Operational Execution Vulnerabilities: T4:\nUnauthorized Action Execution (Elevation of Privilege)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          310.5,
+          337.21875
+        ],
+        [
+          564.78515625,
+          337.21875
+        ],
+        [
+          564.78515625,
+          360.03515625
+        ],
+        [
+          310.5,
+          360.03515625
+        ]
+      ]
+    },
+    {
+      "title": "6) Domain 4: Trust Boundary Violations: T6: Identity\nSpoofing and Trust Exploitation (Spoofing)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          47.25,
+          271.283203125
+        ],
+        [
+          301.517578125,
+          271.283203125
+        ],
+        [
+          301.517578125,
+          293.326171875
+        ],
+        [
+          47.25,
+          293.326171875
+        ]
+      ]
+    },
+    {
+      "title": "T7: Human-Agent Trust Manipulation (Spoofing)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          57.74853515625,
+          510.08203125
+        ],
+        [
+          276.1171875,
+          510.08203125
+        ],
+        [
+          276.1171875,
+          521.68359375
+        ],
+        [
+          57.74853515625,
+          521.68359375
+        ]
+      ]
+    },
+    {
+      "title": "7) Domain 5: Governance Circumvention: T8: Oversight\nSaturation Attacks (Denial of Service)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          311.25,
+          76.5
+        ],
+        [
+          565.681640625,
+          76.5
+        ],
+        [
+          565.681640625,
+          99.8701171875
+        ],
+        [
+          311.25,
+          99.8701171875
+        ]
+      ]
+    },
+    {
+      "title": "T9: Governance Evasion and Obfuscation (Repudiation)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          321.75,
+          308.021484375
+        ],
+        [
+          564.486328125,
+          308.021484375
+        ],
+        [
+          564.486328125,
+          319.623046875
+        ],
+        [
+          321.75,
+          319.623046875
+        ]
+      ]
+    },
+    {
+      "title": "B. The SHIELD Mitigation Framework",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          310.5,
+          572.34375
+        ],
+        [
+          474.75,
+          572.34375
+        ],
+        [
+          474.75,
+          583.9453125
+        ],
+        [
+          310.5,
+          583.9453125
+        ]
+      ]
+    },
+    {
+      "title": "3) Integrity Verification:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          57.0,
+          470.25
+        ],
+        [
+          159.75,
+          470.25
+        ],
+        [
+          159.75,
+          481.8515625
+        ],
+        [
+          57.0,
+          481.8515625
+        ]
+      ]
+    },
+    {
+      "title": "4) Escalation Control:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          320.25,
+          184.658203125
+        ],
+        [
+          416.865234375,
+          184.658203125
+        ],
+        [
+          416.865234375,
+          196.453125
+        ],
+        [
+          320.25,
+          196.453125
+        ]
+      ]
+    },
+    {
+      "title": "C. Threat Model Overview",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          311.25,
+          133.7080078125
+        ],
+        [
+          423.75,
+          133.7080078125
+        ],
+        [
+          423.75,
+          144.3427734375
+        ],
+        [
+          311.25,
+          144.3427734375
+        ]
+      ]
+    },
+    {
+      "title": "D. Attack Surface Expansion",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          310.5,
+          208.248046875
+        ],
+        [
+          433.001953125,
+          208.248046875
+        ],
+        [
+          433.001953125,
+          218.689453125
+        ],
+        [
+          310.5,
+          218.689453125
+        ]
+      ]
+    },
+    {
+      "title": "A. Unique Characteristics and Broader Implications of GenAI\nAgent Threats",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          46.5,
+          310.1484375
+        ],
+        [
+          301.81640625,
+          310.1484375
+        ],
+        [
+          301.81640625,
+          332.96484375
+        ],
+        [
+          46.5,
+          332.96484375
+        ]
+      ]
+    },
+    {
+      "title": "VI. CONCLUSION AND FUTURE WORK",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          354.0,
+          423.0703125
+        ],
+        [
+          522.0,
+          423.0
+        ],
+        [
+          522.0,
+          433.8984375
+        ],
+        [
+          354.0,
+          433.8984375
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          145.5,
+          396.75
+        ],
+        [
+          203.25,
+          396.75
+        ],
+        [
+          203.25,
+          405.28125
+        ],
+        [
+          145.5,
+          405.28125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          128
+        ],
+        [
+          "Line",
+          108
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          108
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          77
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          109
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          109
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          108
+        ],
+        [
+          "Span",
+          108
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "Text",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          85
+        ],
+        [
+          "Span",
+          63
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "ListItem",
+          28
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          113
+        ],
+        [
+          "ListItem",
+          21
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          75
+        ],
+        [
+          "TableCell",
+          50
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "ListItem",
+          24
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2504.19956"
+}
