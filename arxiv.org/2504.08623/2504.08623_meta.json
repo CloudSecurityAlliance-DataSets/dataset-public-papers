@@ -1,0 +1,1143 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Enterprise-Grade Security for the Model Context\nProtocol (MCP): Frameworks and Mitigation\nStrategies",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          62.9033203125,
+          53.25
+        ],
+        [
+          548.05078125,
+          55.30078125
+        ],
+        [
+          548.05078125,
+          131.291015625
+        ],
+        [
+          62.9033203125,
+          131.291015625
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.5,
+          451.5
+        ],
+        [
+          213.75,
+          451.5
+        ],
+        [
+          213.75,
+          460.58203125
+        ],
+        [
+          133.5,
+          460.58203125
+        ]
+      ]
+    },
+    {
+      "title": "A. Background: The Model Context Protocol (MCP)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          47.25,
+          466.5
+        ],
+        [
+          265.5,
+          466.5
+        ],
+        [
+          265.5,
+          476.4375
+        ],
+        [
+          47.25,
+          476.4375
+        ]
+      ]
+    },
+    {
+      "title": "B. The Broader Context: MCP Security and AI Governance",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          310.5,
+          573.75
+        ],
+        [
+          558.80859375,
+          573.75
+        ],
+        [
+          558.80859375,
+          584.71875
+        ],
+        [
+          310.5,
+          584.71875
+        ]
+      ]
+    },
+    {
+      "title": "C. Research Focus and Contributions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          48.0,
+          103.9306640625
+        ],
+        [
+          204.0,
+          103.9306640625
+        ],
+        [
+          204.0,
+          114.3720703125
+        ],
+        [
+          48.0,
+          114.3720703125
+        ]
+      ]
+    },
+    {
+      "title": "II. SECURITY THREAT LANDSCAPE AND METHODOLOGY",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          49.1572265625,
+          438.0
+        ],
+        [
+          297.75,
+          438.0
+        ],
+        [
+          297.75,
+          448.59375
+        ],
+        [
+          49.1572265625,
+          448.59375
+        ]
+      ]
+    },
+    {
+      "title": "A. Threat Modeling Methodology for MCP",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.25,
+          453.0
+        ],
+        [
+          227.70703125,
+          453.0
+        ],
+        [
+          227.70703125,
+          464.0625
+        ],
+        [
+          47.25,
+          464.0625
+        ]
+      ]
+    },
+    {
+      "title": "MCP Server Threats",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          320.044921875,
+          197.2265625
+        ],
+        [
+          414.0,
+          197.2265625
+        ],
+        [
+          414.0,
+          207.66796875
+        ],
+        [
+          320.044921875,
+          207.66796875
+        ]
+      ]
+    },
+    {
+      "title": "MCP Client Threats",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          321.0,
+          417.65625
+        ],
+        [
+          412.5,
+          417.65625
+        ],
+        [
+          412.5,
+          428.484375
+        ],
+        [
+          321.0,
+          428.484375
+        ]
+      ]
+    },
+    {
+      "title": "MCP Host Environment Threats",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          321.0,
+          530.19140625
+        ],
+        [
+          465.57421875,
+          530.19140625
+        ],
+        [
+          465.57421875,
+          541.01953125
+        ],
+        [
+          321.0,
+          541.01953125
+        ]
+      ]
+    },
+    {
+      "title": "Data Sources and External Resources Threats",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          321.75,
+          607.1484375
+        ],
+        [
+          524.25,
+          607.1484375
+        ],
+        [
+          524.25,
+          617.203125
+        ],
+        [
+          321.75,
+          617.203125
+        ]
+      ]
+    },
+    {
+      "title": "Tool-Related Threats",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          320.94140625,
+          708.0
+        ],
+        [
+          414.17578125,
+          708.0
+        ],
+        [
+          414.17578125,
+          718.91015625
+        ],
+        [
+          320.94140625,
+          718.91015625
+        ]
+      ]
+    },
+    {
+      "title": "Prompt-Related Threats",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.95556640625,
+          337.025390625
+        ],
+        [
+          165.0,
+          337.025390625
+        ],
+        [
+          165.0,
+          347.466796875
+        ],
+        [
+          55.95556640625,
+          347.466796875
+        ]
+      ]
+    },
+    {
+      "title": "B. Key Security Challenges",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.0,
+          453.234375
+        ],
+        [
+          163.458984375,
+          453.234375
+        ],
+        [
+          163.458984375,
+          463.2890625
+        ],
+        [
+          48.0,
+          463.2890625
+        ]
+      ]
+    },
+    {
+      "title": "C. Methodology",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.5,
+          352.494140625
+        ],
+        [
+          380.70703125,
+          352.494140625
+        ],
+        [
+          380.70703125,
+          362.935546875
+        ],
+        [
+          310.5,
+          362.935546875
+        ]
+      ]
+    },
+    {
+      "title": "III. COMPREHENSIVE MCP SECURITY FRAMEWORK",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          60.0,
+          218.49609375
+        ],
+        [
+          288.0,
+          218.49609375
+        ],
+        [
+          288.0,
+          228.9375
+        ],
+        [
+          60.0,
+          228.9375
+        ]
+      ]
+    },
+    {
+      "title": "A. MCP Server-Side Mitigations",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.5,
+          322.91015625
+        ],
+        [
+          183.75,
+          322.91015625
+        ],
+        [
+          183.75,
+          333.73828125
+        ],
+        [
+          46.5,
+          333.73828125
+        ]
+      ]
+    },
+    {
+      "title": "B. MCP Client-Side Mitigations",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          310.5,
+          607.53515625
+        ],
+        [
+          445.25390625,
+          607.53515625
+        ],
+        [
+          445.25390625,
+          619.13671875
+        ],
+        [
+          310.5,
+          619.13671875
+        ]
+      ]
+    },
+    {
+      "title": "C. Additional Security Measures for MCPS",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          48.0,
+          254.07421875
+        ],
+        [
+          229.3505859375,
+          254.07421875
+        ],
+        [
+          229.3505859375,
+          264.515625
+        ],
+        [
+          48.0,
+          264.515625
+        ]
+      ]
+    },
+    {
+      "title": "Comprehensive Monitoring and Logging",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          57.75,
+          562.5
+        ],
+        [
+          237.0,
+          562.5
+        ],
+        [
+          237.0,
+          573.1171875
+        ],
+        [
+          57.75,
+          573.1171875
+        ]
+      ]
+    },
+    {
+      "title": "Hosting Requirements",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          320.25,
+          272.443359375
+        ],
+        [
+          420.0,
+          272.443359375
+        ],
+        [
+          420.0,
+          284.044921875
+        ],
+        [
+          320.25,
+          284.044921875
+        ]
+      ]
+    },
+    {
+      "title": "MCP Server Isolation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          320.25,
+          570.41015625
+        ],
+        [
+          420.451171875,
+          570.41015625
+        ],
+        [
+          420.451171875,
+          582.01171875
+        ],
+        [
+          320.25,
+          582.01171875
+        ]
+      ]
+    },
+    {
+      "title": "Trust and Safety",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          57.487060546875,
+          100.8369140625
+        ],
+        [
+          132.75,
+          100.8369140625
+        ],
+        [
+          132.75,
+          112.2451171875
+        ],
+        [
+          57.487060546875,
+          112.2451171875
+        ]
+      ]
+    },
+    {
+      "title": "IV. IMPLEMENTATION STRATEGIES FOR ENTERPRISE\nENVIRONMENTS",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          60.0,
+          368.736328125
+        ],
+        [
+          289.4150390625,
+          368.736328125
+        ],
+        [
+          289.4150390625,
+          390.779296875
+        ],
+        [
+          60.0,
+          390.779296875
+        ]
+      ]
+    },
+    {
+      "title": "A. Secure MCP Deployment Patterns",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          46.5,
+          433.125
+        ],
+        [
+          202.5,
+          433.125
+        ],
+        [
+          202.5,
+          443.953125
+        ],
+        [
+          46.5,
+          443.953125
+        ]
+      ]
+    },
+    {
+      "title": "B. Integration with Enterprise Security Ecosystem",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.5,
+          301.447265625
+        ],
+        [
+          519.662109375,
+          301.447265625
+        ],
+        [
+          519.662109375,
+          312.662109375
+        ],
+        [
+          310.5,
+          312.662109375
+        ]
+      ]
+    },
+    {
+      "title": "V. LIMITATIONS AND IMPLEMENTATION CHALLENGES",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          320.25,
+          629.578125
+        ],
+        [
+          554.625,
+          629.578125
+        ],
+        [
+          554.625,
+          640.40625
+        ],
+        [
+          320.25,
+          640.40625
+        ]
+      ]
+    },
+    {
+      "title": "VI. FUTURE RESEARCH DIRECTIONS",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          356.25,
+          556.5
+        ],
+        [
+          519.662109375,
+          557.26171875
+        ],
+        [
+          519.662109375,
+          568.08984375
+        ],
+        [
+          356.25,
+          568.08984375
+        ]
+      ]
+    },
+    {
+      "title": "VII. CONCLUSION",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          133.5,
+          278.25
+        ],
+        [
+          215.455078125,
+          278.25
+        ],
+        [
+          215.455078125,
+          288.298828125
+        ],
+        [
+          133.5,
+          288.298828125
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          144.6328125,
+          636.15234375
+        ],
+        [
+          203.25,
+          636.15234375
+        ],
+        [
+          203.25,
+          645.43359375
+        ],
+        [
+          144.6328125,
+          645.43359375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          94
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "ListItem",
+          29
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListGroup",
+          7
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          111
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "ListItem",
+          19
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          111
+        ],
+        [
+          "Span",
+          111
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          109
+        ],
+        [
+          "Span",
+          109
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListGroup",
+          5
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          163
+        ],
+        [
+          "Span",
+          78
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          109
+        ],
+        [
+          "ListItem",
+          19
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "ListItem",
+          25
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "TableCell",
+          23
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          96
+        ],
+        [
+          "Span",
+          96
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2504.08623"
+}
