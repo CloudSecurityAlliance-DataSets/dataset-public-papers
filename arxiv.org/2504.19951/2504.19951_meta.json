@@ -1,0 +1,1387 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Securing GenAI Multi-Agent Systems Against Tool\nSquatting: A Zero Trust Registry-Based Approach",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          50.25,
+          53.8505859375
+        ],
+        [
+          561.0,
+          53.8505859375
+        ],
+        [
+          561.0,
+          103.7373046875
+        ],
+        [
+          50.25,
+          103.7373046875
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.5,
+          465.0
+        ],
+        [
+          213.75,
+          465.0
+        ],
+        [
+          213.75,
+          474.890625
+        ],
+        [
+          133.5,
+          474.890625
+        ]
+      ]
+    },
+    {
+      "title": "II. BACKGROUND AND RELATED WORK",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          350.25,
+          651.0
+        ],
+        [
+          524.25,
+          651.0
+        ],
+        [
+          524.25,
+          660.90234375
+        ],
+        [
+          350.25,
+          660.90234375
+        ]
+      ]
+    },
+    {
+      "title": "A. Multi-Agent Systems and Interoperability",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          309.0,
+          668.25
+        ],
+        [
+          493.6640625,
+          668.25
+        ],
+        [
+          493.6640625,
+          677.91796875
+        ],
+        [
+          309.0,
+          677.91796875
+        ]
+      ]
+    },
+    {
+      "title": "B. Security Challenges in Multi-Agent Systems",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          48.0,
+          350.173828125
+        ],
+        [
+          242.25,
+          350.173828125
+        ],
+        [
+          242.25,
+          361.388671875
+        ],
+        [
+          48.0,
+          361.388671875
+        ]
+      ]
+    },
+    {
+      "title": "III. TOOL SOUATTING: A NOVEL THREAT VECTOR",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          325.72265625,
+          149.853515625
+        ],
+        [
+          548.05078125,
+          149.853515625
+        ],
+        [
+          548.05078125,
+          161.455078125
+        ],
+        [
+          325.72265625,
+          161.455078125
+        ]
+      ]
+    },
+    {
+      "title": "A. Defining Tool Squatting",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          308.689453125,
+          170.15625
+        ],
+        [
+          423.439453125,
+          170.15625
+        ],
+        [
+          423.439453125,
+          181.564453125
+        ],
+        [
+          308.689453125,
+          181.564453125
+        ]
+      ]
+    },
+    {
+      "title": "B. Squatting Attack Vectors in A2A and MCP",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          310.5,
+          529.8046875
+        ],
+        [
+          501.134765625,
+          529.8046875
+        ],
+        [
+          501.134765625,
+          541.40625
+        ],
+        [
+          310.5,
+          541.40625
+        ]
+      ]
+    },
+    {
+      "title": "Via A2A Protocol:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          320.94140625,
+          596.70703125
+        ],
+        [
+          402.75,
+          596.70703125
+        ],
+        [
+          402.75,
+          607.53515625
+        ],
+        [
+          320.94140625,
+          607.53515625
+        ]
+      ]
+    },
+    {
+      "title": "C. Impact of Successful Tool Squatting Attacks",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.0,
+          516.26953125
+        ],
+        [
+          243.0,
+          516.26953125
+        ],
+        [
+          243.0,
+          526.5
+        ],
+        [
+          48.0,
+          526.5
+        ]
+      ]
+    },
+    {
+      "title": "D. Tool Squatting Examples",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.482421875,
+          237.75
+        ],
+        [
+          429.416015625,
+          237.75
+        ],
+        [
+          429.416015625,
+          248.2734375
+        ],
+        [
+          310.482421875,
+          248.2734375
+        ]
+      ]
+    },
+    {
+      "title": "IV. TOOL REGISTRY FRAMEWORK: SECURE TOOL AND\nAGENT MANAGEMENT",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          317.25,
+          426.1640625
+        ],
+        [
+          557.912109375,
+          426.1640625
+        ],
+        [
+          557.912109375,
+          448.59375
+        ],
+        [
+          317.25,
+          448.59375
+        ]
+      ]
+    },
+    {
+      "title": "A. System Overview",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          309.75,
+          452.07421875
+        ],
+        [
+          396.0,
+          452.07421875
+        ],
+        [
+          396.0,
+          463.67578125
+        ],
+        [
+          309.75,
+          463.67578125
+        ]
+      ]
+    },
+    {
+      "title": "B. Architecture and Data Management",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          48.0,
+          484.55859375
+        ],
+        [
+          210.0,
+          484.55859375
+        ],
+        [
+          210.0,
+          495.38671875
+        ],
+        [
+          48.0,
+          495.38671875
+        ]
+      ]
+    },
+    {
+      "title": "Kev Data Stored:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          57.375,
+          658.5
+        ],
+        [
+          136.5,
+          658.5
+        ],
+        [
+          136.5,
+          669.41015625
+        ],
+        [
+          57.375,
+          669.41015625
+        ]
+      ]
+    },
+    {
+      "title": "C. Agent and Tool Registration Process",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          310.5,
+          355.974609375
+        ],
+        [
+          475.734375,
+          355.974609375
+        ],
+        [
+          475.734375,
+          366.416015625
+        ],
+        [
+          310.5,
+          366.416015625
+        ]
+      ]
+    },
+    {
+      "title": "V. ADDRESSING TOOL SOUATTING WITH THE REGISTRY\nFRAMEWORK",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          52.5,
+          167.5458984375
+        ],
+        [
+          297.333984375,
+          167.5458984375
+        ],
+        [
+          297.333984375,
+          189.5888671875
+        ],
+        [
+          52.5,
+          189.5888671875
+        ]
+      ]
+    },
+    {
+      "title": "A. Preventing Deceptive Representation and Discovery Ma-\nnipulation",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          47.25,
+          195.75
+        ],
+        [
+          301.21875,
+          195.75
+        ],
+        [
+          301.21875,
+          218.302734375
+        ],
+        [
+          47.25,
+          218.302734375
+        ]
+      ]
+    },
+    {
+      "title": "B. Securing Tool Discovery and Access",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          48.0,
+          522.45703125
+        ],
+        [
+          212.25,
+          522.45703125
+        ],
+        [
+          212.25,
+          533.28515625
+        ],
+        [
+          48.0,
+          533.28515625
+        ]
+      ]
+    },
+    {
+      "title": "C. Just-in-Time Credential Provisioning",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          311.25,
+          104.4140625
+        ],
+        [
+          476.25,
+          104.4140625
+        ],
+        [
+          476.25,
+          115.62890625
+        ],
+        [
+          311.25,
+          115.62890625
+        ]
+      ]
+    },
+    {
+      "title": "D. Monitoring and Anomaly Detection",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          310.5,
+          392.51953125
+        ],
+        [
+          473.25,
+          392.51953125
+        ],
+        [
+          473.25,
+          403.34765625
+        ],
+        [
+          310.5,
+          403.34765625
+        ]
+      ]
+    },
+    {
+      "title": "E. Enhancing Security with Configurable Trust Scores",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          310.78125,
+          633.75
+        ],
+        [
+          537.0,
+          633.75
+        ],
+        [
+          537.0,
+          644.2734375
+        ],
+        [
+          310.78125,
+          644.2734375
+        ]
+      ]
+    },
+    {
+      "title": "VI. IMPLEMENTATION CONCEPT",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          103.5,
+          636.75
+        ],
+        [
+          245.25,
+          636.75
+        ],
+        [
+          245.25,
+          647.3671875
+        ],
+        [
+          103.5,
+          647.3671875
+        ]
+      ]
+    },
+    {
+      "title": "A. Policy Definition Example",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          46.5,
+          471.75
+        ],
+        [
+          169.5,
+          471.75
+        ],
+        [
+          169.5,
+          482.23828125
+        ],
+        [
+          46.5,
+          482.23828125
+        ]
+      ]
+    },
+    {
+      "title": "B. Tool Registration Example",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.5,
+          530.25
+        ],
+        [
+          435.0,
+          530.25
+        ],
+        [
+          435.0,
+          539.859375
+        ],
+        [
+          310.5,
+          539.859375
+        ]
+      ]
+    },
+    {
+      "title": "C. Just-in-Time Credential Flow",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          47.999267578125,
+          311.888671875
+        ],
+        [
+          183.0,
+          311.888671875
+        ],
+        [
+          183.0,
+          323.490234375
+        ],
+        [
+          47.999267578125,
+          323.490234375
+        ]
+      ]
+    },
+    {
+      "title": "VII. DISCUSSION AND FUTURE WORK",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          352.6171875,
+          51.0
+        ],
+        [
+          521.75390625,
+          51.0
+        ],
+        [
+          521.75390625,
+          61.5849609375
+        ],
+        [
+          352.6171875,
+          61.5849609375
+        ]
+      ]
+    },
+    {
+      "title": "A. Security vs. Usability Trade-offs",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          309.75,
+          69.75
+        ],
+        [
+          456.75,
+          69.75
+        ],
+        [
+          456.75,
+          80.3408203125
+        ],
+        [
+          309.75,
+          80.3408203125
+        ]
+      ]
+    },
+    {
+      "title": "B. Integration with A2A and MCP Protocols",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          310.5,
+          257.748046875
+        ],
+        [
+          497.25,
+          257.748046875
+        ],
+        [
+          497.25,
+          268.189453125
+        ],
+        [
+          310.5,
+          268.189453125
+        ]
+      ]
+    },
+    {
+      "title": "A2A Integration:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          310.5,
+          298.5
+        ],
+        [
+          387.0,
+          298.5
+        ],
+        [
+          387.0,
+          309.955078125
+        ],
+        [
+          310.5,
+          309.955078125
+        ]
+      ]
+    },
+    {
+      "title": "MCP Integration:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          310.5,
+          437.765625
+        ],
+        [
+          390.75,
+          437.765625
+        ],
+        [
+          390.75,
+          447.8203125
+        ],
+        [
+          310.5,
+          447.8203125
+        ]
+      ]
+    },
+    {
+      "title": "C. Limitations of the Tool Registry Framework",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          310.5,
+          619.91015625
+        ],
+        [
+          506.25,
+          619.91015625
+        ],
+        [
+          506.25,
+          629.96484375
+        ],
+        [
+          310.5,
+          629.96484375
+        ]
+      ]
+    },
+    {
+      "title": "D. Enterprise Deployment Considerations",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          47.25,
+          593.25
+        ],
+        [
+          222.75,
+          593.25
+        ],
+        [
+          222.75,
+          603.66796875
+        ],
+        [
+          47.25,
+          603.66796875
+        ]
+      ]
+    },
+    {
+      "title": "E. Future Directions",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          311.080078125,
+          604.5
+        ],
+        [
+          398.25,
+          604.5
+        ],
+        [
+          398.25,
+          615.65625
+        ],
+        [
+          311.080078125,
+          615.65625
+        ]
+      ]
+    },
+    {
+      "title": "VIII. CONCLUSION",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          132.0,
+          172.5
+        ],
+        [
+          217.5,
+          172.5
+        ],
+        [
+          217.5,
+          182.337890625
+        ],
+        [
+          132.0,
+          182.337890625
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          145.5,
+          433.5
+        ],
+        [
+          203.25,
+          433.5
+        ],
+        [
+          203.25,
+          443.56640625
+        ],
+        [
+          145.5,
+          443.56640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          102
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          105
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          5
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "TableCell",
+          17
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          128
+        ],
+        [
+          "Line",
+          125
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          110
+        ],
+        [
+          "Span",
+          93
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListGroup",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          76
+        ],
+        [
+          "Span",
+          47
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          85
+        ],
+        [
+          "Span",
+          55
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          133
+        ],
+        [
+          "Line",
+          125
+        ],
+        [
+          "ListItem",
+          23
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          106
+        ],
+        [
+          "ListItem",
+          27
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2504.19951"
+}
