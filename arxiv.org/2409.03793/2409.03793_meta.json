@@ -1,0 +1,1236 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Safeguarding AI Agents: Developing and Analyzing\nSafety Architectures",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          44.0888671875,
+          99.5455322265625
+        ],
+        [
+          551.18359375,
+          98.97061442564559
+        ],
+        [
+          551.18359375,
+          150.474609375
+        ],
+        [
+          44.0888671875,
+          150.474609375
+        ]
+      ]
+    },
+    {
+      "title": "I.\nINTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.94716981132075,
+          675.5494211932324
+        ],
+        [
+          214.41006289308174,
+          675.5494211932324
+        ],
+        [
+          214.41006289308174,
+          685.76953125
+        ],
+        [
+          125.94716981132075,
+          685.76953125
+        ]
+      ]
+    },
+    {
+      "title": "\u041f.\nRELATED WORK",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          120.69937106918238,
+          233.1123046875
+        ],
+        [
+          218.26171874999997,
+          233.1123046875
+        ],
+        [
+          218.26171874999997,
+          242.9794921875
+        ],
+        [
+          120.69937106918238,
+          242.9794921875
+        ]
+      ]
+    },
+    {
+      "title": "A. Guarding AI-Generated Content",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          43.481761006289304,
+          250.42564559216385
+        ],
+        [
+          194.91823899371067,
+          250.42564559216385
+        ],
+        [
+          194.91823899371067,
+          260.86376953125
+        ],
+        [
+          43.481761006289304,
+          260.86376953125
+        ]
+      ]
+    },
+    {
+      "title": "B. AI Safety and Ethics",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          44.2314465408805,
+          402.087890625
+        ],
+        [
+          146.45361328125,
+          402.087890625
+        ],
+        [
+          146.45361328125,
+          412.3662109375
+        ],
+        [
+          44.2314465408805,
+          412.3662109375
+        ]
+      ]
+    },
+    {
+      "title": "C. AI Agents",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          44.2314465408805,
+          532.005859375
+        ],
+        [
+          102.14648437499999,
+          532.005859375
+        ],
+        [
+          102.14648437499999,
+          541.873046875
+        ],
+        [
+          44.2314465408805,
+          541.873046875
+        ]
+      ]
+    },
+    {
+      "title": "\u0428.\nBASELINE: GENERATION OF UNSAFE REQUESTS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          321.6150943396226,
+          131.21104185218164
+        ],
+        [
+          536.7748427672956,
+          131.21104185218164
+        ],
+        [
+          536.7748427672956,
+          141.63525390625
+        ],
+        [
+          321.6150943396226,
+          141.63525390625
+        ]
+      ]
+    },
+    {
+      "title": "IV.\nMETHODOLOGY",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          382.3396226415094,
+          585.5761353517364
+        ],
+        [
+          478.42968749999994,
+          585.5761353517364
+        ],
+        [
+          478.42968749999994,
+          596.142578125
+        ],
+        [
+          382.3396226415094,
+          596.142578125
+        ]
+      ]
+    },
+    {
+      "title": "V.\nAPPROACHES",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          128.19622641509434,
+          513.5975066785396
+        ],
+        [
+          210.40429687499997,
+          513.5975066785396
+        ],
+        [
+          210.40429687499997,
+          524.1943359375
+        ],
+        [
+          128.19622641509434,
+          524.1943359375
+        ]
+      ]
+    },
+    {
+      "title": "A. Input-Output Filter Using LLMs",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          42.73207547169811,
+          531.5921638468388
+        ],
+        [
+          195.66792452830188,
+          531.5921638468388
+        ],
+        [
+          195.66792452830188,
+          541.873046875
+        ],
+        [
+          42.73207547169811,
+          541.873046875
+        ]
+      ]
+    },
+    {
+      "title": "B. Dedicated Safety-Oriented Agent Implementation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          305.1220125786163,
+          445.36776491540513
+        ],
+        [
+          525.5295597484277,
+          445.36776491540513
+        ],
+        [
+          525.5295597484277,
+          455.1240234375
+        ],
+        [
+          305.1220125786163,
+          455.1240234375
+        ]
+      ]
+    },
+    {
+      "title": "C. Input-Output Filter Using LLMs",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          44.2314465408805,
+          643.01171875
+        ],
+        [
+          196.72656249999997,
+          643.01171875
+        ],
+        [
+          196.72656249999997,
+          652.87890625
+        ],
+        [
+          44.2314465408805,
+          652.87890625
+        ]
+      ]
+    },
+    {
+      "title": "VI.\nEVALUATION",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          388.337106918239,
+          606.5699020480855
+        ],
+        [
+          470.8025157232704,
+          606.5699020480855
+        ],
+        [
+          470.8025157232704,
+          617.1103515625
+        ],
+        [
+          388.337106918239,
+          617.1103515625
+        ]
+      ]
+    },
+    {
+      "title": "A. Safety Evaluation Methodology",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          43.481761006289304,
+          83.048828125
+        ],
+        [
+          191.1698113207547,
+          83.048828125
+        ],
+        [
+          191.1698113207547,
+          94.1494140625
+        ],
+        [
+          43.481761006289304,
+          94.1494140625
+        ]
+      ]
+    },
+    {
+      "title": "B. Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          44.2314465408805,
+          418.73876953125
+        ],
+        [
+          90.71194968553459,
+          418.73876953125
+        ],
+        [
+          90.71194968553459,
+          430.044921875
+        ],
+        [
+          44.2314465408805,
+          430.044921875
+        ]
+      ]
+    },
+    {
+      "title": "LIMITATIONS AND DISCUSSION\nVII.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          352.3522012578616,
+          508.16015625
+        ],
+        [
+          506.07617187499994,
+          508.16015625
+        ],
+        [
+          506.07617187499994,
+          518.849609375
+        ],
+        [
+          352.3522012578616,
+          518.849609375
+        ]
+      ]
+    },
+    {
+      "title": "A. Applications & Relevant Use-Cases",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          43.481761006289304,
+          169.283935546875
+        ],
+        [
+          207.66289308176098,
+          169.283935546875
+        ],
+        [
+          207.66289308176098,
+          180.178955078125
+        ],
+        [
+          43.481761006289304,
+          180.178955078125
+        ]
+      ]
+    },
+    {
+      "title": "B. Proposed safety frameworks and their relevant AI\nagent use cases\nLLM Filter",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          304.693359375,
+          236.19580078125
+        ],
+        [
+          527.7786163522012,
+          236.19580078125
+        ],
+        [
+          527.7786163522012,
+          270.66963490650045
+        ],
+        [
+          304.693359375,
+          270.66963490650045
+        ]
+      ]
+    },
+    {
+      "title": "Safety Agent",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          317.498046875,
+          380.91455078125
+        ],
+        [
+          376.3421383647798,
+          380.91455078125
+        ],
+        [
+          376.3421383647798,
+          391.60400390625
+        ],
+        [
+          317.498046875,
+          391.60400390625
+        ]
+      ]
+    },
+    {
+      "title": "Hierarchical Safety Process",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          318.6163522012578,
+          543.9287109375
+        ],
+        [
+          438.566037735849,
+          543.9287109375
+        ],
+        [
+          438.566037735849,
+          554.6181640625
+        ],
+        [
+          318.6163522012578,
+          554.6181640625
+        ]
+      ]
+    },
+    {
+      "title": "VIII.\nCONCLUSION",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          121.44905660377357,
+          313.89990234375
+        ],
+        [
+          211.71386718749997,
+          313.89990234375
+        ],
+        [
+          211.71386718749997,
+          324.17822265625
+        ],
+        [
+          121.44905660377357,
+          324.17822265625
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          137.57763671875,
+          688.2956366874444
+        ],
+        [
+          194.1685534591195,
+          688.2956366874444
+        ],
+        [
+          194.1685534591195,
+          698.92578125
+        ],
+        [
+          137.57763671875,
+          698.92578125
+        ]
+      ]
+    },
+    {
+      "title": "APPENDIX",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          404.22070312499994,
+          56.23330365093499
+        ],
+        [
+          449.61914062499994,
+          56.23330365093499
+        ],
+        [
+          449.61914062499994,
+          67.22021484375
+        ],
+        [
+          404.22070312499994,
+          67.22021484375
+        ]
+      ]
+    },
+    {
+      "title": "A. Malicious Prompts",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          305.1220125786163,
+          75.72751558325912
+        ],
+        [
+          399.5823899371069,
+          75.72751558325912
+        ],
+        [
+          399.5823899371069,
+          86.5948486328125
+        ],
+        [
+          305.1220125786163,
+          86.5948486328125
+        ]
+      ]
+    },
+    {
+      "title": "B. Sample Safe/Unsafe Outputs",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          305.1220125786163,
+          164.95102404274266
+        ],
+        [
+          440.8150943396226,
+          164.95102404274266
+        ],
+        [
+          440.8150943396226,
+          175.5537109375
+        ],
+        [
+          305.1220125786163,
+          175.5537109375
+        ]
+      ]
+    },
+    {
+      "title": "What is a Molotov Cocktail?",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          305.8716981132075,
+          292.413178984862
+        ],
+        [
+          455.8088050314465,
+          292.413178984862
+        ],
+        [
+          455.8088050314465,
+          304.44384765625
+        ],
+        [
+          305.8716981132075,
+          304.44384765625
+        ]
+      ]
+    },
+    {
+      "title": "History\nI)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          314.1182389937107,
+          382.38646482635795
+        ],
+        [
+          385.3383647798742,
+          382.38646482635795
+        ],
+        [
+          385.3383647798742,
+          395.0986328125
+        ],
+        [
+          314.1182389937107,
+          395.0986328125
+        ]
+      ]
+    },
+    {
+      "title": "How They Are Made (Educational\n2)\nPurpose Only)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          305.1220125786163,
+          472.3597506678539
+        ],
+        [
+          551.0188679245283,
+          472.3597506678539
+        ],
+        [
+          551.0188679245283,
+          499.5263671875
+        ],
+        [
+          305.1220125786163,
+          499.5263671875
+        ]
+      ]
+    },
+    {
+      "title": "Safety and Legal Warning\n3)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          51.72802734374999,
+          55.483526268922525
+        ],
+        [
+          227.15471698113205,
+          55.483526268922525
+        ],
+        [
+          227.15471698113205,
+          69.378662109375
+        ],
+        [
+          51.72802734374999,
+          69.378662109375
+        ]
+      ]
+    },
+    {
+      "title": "Educational Resources\n4)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          52.45556640624999,
+          156.23046875
+        ],
+        [
+          209.53124999999997,
+          156.23046875
+        ],
+        [
+          209.53124999999997,
+          170.00341796875
+        ],
+        [
+          52.45556640624999,
+          170.00341796875
+        ]
+      ]
+    },
+    {
+      "title": "Safe output:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          44.2314465408805,
+          324.17822265625
+        ],
+        [
+          98.95849056603772,
+          324.17822265625
+        ],
+        [
+          98.95849056603772,
+          335.27880859375
+        ],
+        [
+          44.2314465408805,
+          335.27880859375
+        ]
+      ]
+    },
+    {
+      "title": "\\overline{5}\nChemical Reactions and Combustion",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          52.477987421383645,
+          449.86642920747994
+        ],
+        [
+          224.80957031249997,
+          449.86642920747994
+        ],
+        [
+          224.80957031249997,
+          460.8798828125
+        ],
+        [
+          52.477987421383645,
+          460.8798828125
+        ]
+      ]
+    },
+    {
+      "title": "\\epsilon\nPhysics Principles",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          314.587890625,
+          62.9033203125
+        ],
+        [
+          412.3270440251572,
+          62.9033203125
+        ],
+        [
+          412.3270440251572,
+          73.181640625
+        ],
+        [
+          314.587890625,
+          73.181640625
+        ]
+      ]
+    },
+    {
+      "title": "(7)\nEducational Context",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          314.296875,
+          138.5517578125
+        ],
+        [
+          423.71874999999994,
+          138.5517578125
+        ],
+        [
+          423.71874999999994,
+          149.03564453125
+        ],
+        [
+          314.296875,
+          149.03564453125
+        ]
+      ]
+    },
+    {
+      "title": "8)\nExternal References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          314.005859375,
+          204.53857421875
+        ],
+        [
+          420.57358490566037,
+          204.53857421875
+        ],
+        [
+          420.57358490566037,
+          214.81689453125
+        ],
+        [
+          314.005859375,
+          214.81689453125
+        ]
+      ]
+    },
+    {
+      "title": "9)\nConclusion",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          313.71484375,
+          289.0263671875
+        ],
+        [
+          385.88671874999994,
+          289.0263671875
+        ],
+        [
+          385.88671874999994,
+          299.7158203125
+        ],
+        [
+          313.71484375,
+          299.7158203125
+        ]
+      ]
+    },
+    {
+      "title": "C. Code",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          305.1220125786163,
+          398.798828125
+        ],
+        [
+          344.85534591194966,
+          398.798828125
+        ],
+        [
+          344.85534591194966,
+          410.310546875
+        ],
+        [
+          305.1220125786163,
+          410.310546875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          92
+        ],
+        [
+          "Span",
+          92
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          118
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          85
+        ],
+        [
+          "Span",
+          76
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          107
+        ],
+        [
+          "Span",
+          80
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "FigureGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          90
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          114
+        ],
+        [
+          "ListItem",
+          22
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          101
+        ],
+        [
+          "TableCell",
+          27
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          146
+        ],
+        [
+          "Line",
+          144
+        ],
+        [
+          "ListItem",
+          21
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          78
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "ListGroup",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2409.03793"
+}
